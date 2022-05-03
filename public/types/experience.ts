@@ -18,6 +18,8 @@ export type Experience = {
   role: string;
   /** List with all the technologies used while working in the experience. */
   technologies: string[];
+  /** Name of the compnay for this experience. */
+  companyName: string;
   /**
    * List with all the image urls to show the project (The first in the array will be the main
    * image).

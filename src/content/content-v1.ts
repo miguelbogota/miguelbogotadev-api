@@ -19,7 +19,7 @@ export const contentV1: ContentV1 = {
       url: 'https://firebasestorage.googleapis.com/v0/b/miguelbogotadev.appspot.com/o/cover-images%2Fworks.png?alt=media&token=e0e9d85b-ed66-4ebe-a733-7328b3c09c0f',
     },
   ],
-  isOpenForJobs: true,
+  isOpenForJobs: false,
   name: 'Miguel Bogota',
   pageDescriptions: {
     contact:
