@@ -6,7 +6,7 @@ import initMiddleware from '@app-lib/init-middleware';
 const cors = initMiddleware(
   // You can read more about the available options here: https://github.com/expressjs/cors#configuration-options
   // Only allow requests with GET, POST and OPTIONS
-  Cors({ methods: ['GET', 'HEAD', 'OPTIONS'] }),
+  Cors({ methods: ['GET', 'HEAD', 'OPTIONS'], origin: '*' }),
 );
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
