@@ -2,5 +2,5 @@
   "version": "0.2",
   "ignorePaths": ["package-lock.json", "node_modules", ".git/objects", ".vscode", ".next"],
   "allowCompoundWords": true,
-  "words": ["Ameri", "aosp", "miguelbogotadev", "RNUI", "VERCEL"]
+  "words": ["Ameri", "aosp", "Blazor", "miguelbogotadev", "RNUI", "VERCEL"]
 }
