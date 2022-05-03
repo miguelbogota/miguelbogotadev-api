@@ -1,0 +1,7 @@
+node_modules
+dist
+*.ico
+*.log
+*.lock
+**/public/*.js
+**/public/*.js.*
