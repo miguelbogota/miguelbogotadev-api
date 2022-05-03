@@ -9,7 +9,6 @@ export const miguelbogotadevV1: Experience = {
   role: 'Full Stack Developer',
   startedAt: '2021-01-11',
   technologies: [],
-  // imageUrls: [`${process.env.VERCEL_URL}/images/miguelbogotadev-v1/01.png`],
   imageUrls: ['/images/miguelbogotadev-v1/01.png'],
   gitUrl: 'https://github.com/miguelbogota/miguelbogotadev-v1',
   webUrl: 'https://miguelbogotadev.web.app',
