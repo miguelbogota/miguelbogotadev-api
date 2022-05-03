@@ -1,10 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import defaultCors from '@app-lib/default-cors';
 import experience from '@app-experience';
 
 /**
  * Returns the experience passing the id. If no value is found retruns a not found error.
  */
-const handler = (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+  // Run cors
+  await defaultCors(req, res);
+
   const { id } = req.query;
 
   const experienceSearch = experience.find(_experience => _experience.id === id);
