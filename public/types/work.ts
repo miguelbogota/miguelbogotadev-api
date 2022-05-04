@@ -18,7 +18,9 @@ export type Work = {
   role: string;
   /** List with all the technologies used while working in the work. */
   technologies: string[];
-  /** Name of the compnay for this work. */
+  /**
+   * Name of the compnay for this work (If name is "Miguel Bogota" it means is a personal project).
+   */
   companyName: string;
   /**
    * List with all the image urls to show the project (The first in the array will be the main

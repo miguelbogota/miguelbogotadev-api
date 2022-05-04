@@ -2,6 +2,7 @@ import { aosp } from './aosp';
 import { clothingPark } from './clothing-park';
 import { cryptoJune } from './crypto-june';
 import { galtex } from './galtex';
+import { miguelbogotadevApi } from './miguelbogotadev-api';
 import { miguelbogotadevV1 } from './miguelbogotadev-v1';
 import { nvcMovies } from './nvc-movies';
 import { onWatchUs } from './on-watch-us';
@@ -16,6 +17,7 @@ const experience = [
   clothingPark,
   cryptoJune,
   galtex,
+  miguelbogotadevApi,
   miguelbogotadevV1,
   nvcMovies,
   onWatchUs,
