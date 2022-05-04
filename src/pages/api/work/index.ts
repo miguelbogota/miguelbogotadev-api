@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import type { APIWorkResponseList } from 'public/types/api-response';
+import type { APIWorkResponseList } from 'public/types';
 import defaultCors from '@app-lib/default-cors';
 import work from '@app-work';
 
