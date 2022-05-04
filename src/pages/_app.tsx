@@ -21,8 +21,10 @@ const MainComponent: FC<AppProps> = ({ Component, pageProps }) => {
         <meta name="theme-color" content="#00796b" />
         <link rel="icon" href={`/favicons/${theme}.ico`} />
       </Head>
-      <div className={`container ${theme}-theme`}>
-        <Component {...pageProps} />
+      <div className={`${theme}-theme`}>
+        <div className="container">
+          <Component {...pageProps} />
+        </div>
       </div>
     </>
   );

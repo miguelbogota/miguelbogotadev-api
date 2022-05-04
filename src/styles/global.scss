@@ -1,9 +1,11 @@
 // Soft Reset
 html,
-body {
+body,
+#__next {
   padding: 0;
   margin: 0;
   font-family: Barlow, Segoe UI, Roboto, -apple-system, Oxygen, Ubuntu, sans-serif;
+  height: 100%;
 }
 
 p {
@@ -28,14 +30,20 @@ a {
     --text-color: #303030;
     --background-color: #ffffff;
     --paper-color: #f7f7f7;
-    --logo-color: #303030;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100%;
   }
 
   .dark-theme {
-    --text-color: #ebebeb;
+    --text-color: #d9d9d9;
     --background-color: #000000;
     --paper-color: #333333;
-    --logo-color: #ebebeb;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100%;
   }
 }
 
