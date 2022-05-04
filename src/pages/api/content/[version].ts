@@ -7,8 +7,8 @@ import content from '@app-content';
  * If no value is found retruns a not found error.
  */
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
-  // Run cors
-  await defaultCors(req, res);
+  const hasError = await defaultCors(req, res).catch(err => err.message);
+  if (!!hasError) return res.status(500).json({ error: hasError as string });
 
   const { version } = req.query;
 

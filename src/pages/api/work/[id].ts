@@ -7,8 +7,8 @@ import work from '@app-work';
  * Returns the experience passing the id. If no value is found retruns a not found error.
  */
 const handler = async (req: NextApiRequest, res: NextApiResponse<APIWorkResponse>) => {
-  // Run cors
-  await defaultCors(req, res);
+  const hasError = await defaultCors(req, res).catch(err => err.message);
+  if (!!hasError) return res.status(500).json({ error: hasError as string });
 
   const { id } = req.query;
 

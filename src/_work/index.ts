@@ -9,9 +9,9 @@ import { onWatchUs } from './on-watch-us';
 import { reyWriter } from './rey-writer';
 
 /**
- * List with all the experiences sorted by started date.
+ * List with all the work sorted by started date.
  */
-const experience = [
+const work = [
   // Add new experiences at the top.
   aosp,
   clothingPark,
@@ -24,4 +24,4 @@ const experience = [
   reyWriter,
 ].sort((a, b) => new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime());
 
-export default experience;
+export default work;

@@ -7,8 +7,8 @@ import work from '@app-work';
  * Returns an array with all the experiences and additional data.
  */
 const handler = async (req: NextApiRequest, res: NextApiResponse<APIWorkResponseList>) => {
-  // Run cors
-  await defaultCors(req, res);
+  const hasError = await defaultCors(req, res).catch(err => err.message);
+  if (!!hasError) return res.status(500).json({ error: hasError as string });
 
   return res.status(200).json({ length: work.length, work });
 };
