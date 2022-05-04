@@ -1,0 +1,43 @@
+// Soft Reset
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Barlow, Segoe UI, Roboto, -apple-system, Oxygen, Ubuntu, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Variables
+:root {
+  --primary-color: #00796b;
+  --error-color: #bd3835;
+
+  .light-theme {
+    --text-color: #303030;
+    --background-color: #ffffff;
+    --paper-color: #f7f7f7;
+    --logo-color: #303030;
+  }
+
+  .dark-theme {
+    --text-color: #ebebeb;
+    --background-color: #000000;
+    --paper-color: #333333;
+    --logo-color: #ebebeb;
+  }
+}
+
+// Main page styles.
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

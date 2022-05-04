@@ -7,34 +7,17 @@ const useIsomorphicLayout = typeof window !== 'undefined' ? useLayoutEffect : us
 
 /** Type with the available themes for the system. */
 export type SystemTheme = 'light' | 'dark';
-/** Type with the available theme the user can select. */
-export type UserSelectedTheme = SystemTheme | 'system';
 
 /** Props for the provider of the theme. */
 export type AppThemeProviderProps = {
   system: SystemTheme;
-  userSelected: UserSelectedTheme;
 };
 
 /** Context with the values to keep track across the app. */
 const ctx = createContext({
-  useValue: ({ system, userSelected }: AppThemeProviderProps) => {
-    const [systemTheme, setSystemTheme] = useState(system);
-    const [userSelectedTheme, setUserSelectedTheme] = useState(userSelected);
-
-    return useMemo(
-      () => ({
-        systemTheme,
-        setSystemTheme,
-        userSelectedTheme,
-        setUserSelectedTheme: (newTheme: UserSelectedTheme) => {
-          // Store the new value in a cookie to keep track in SSR.
-          jsCookie.set('user-selected-theme', newTheme);
-          setUserSelectedTheme(newTheme);
-        },
-      }),
-      [systemTheme, userSelectedTheme],
-    );
+  useValue: ({ system }: AppThemeProviderProps) => {
+    const [theme, setTheme] = useState(system);
+    return useMemo(() => ({ theme, setTheme }), [theme]);
   },
 });
 
@@ -52,18 +35,13 @@ const colors = {
  * a set function), to keep track of it across the app.
  */
 const useAppTheme = () => {
-  const { systemTheme, setSystemTheme, userSelectedTheme, setUserSelectedTheme } = ctx.useValue();
-  /**
-   * Theme can only be (light|dark) and it will be calculated based on the userSelectedTheme, if is
-   * system it will return the systemTheme or if is fixed one it will return that one.
-   */
-  const theme = userSelectedTheme === 'system' ? systemTheme : userSelectedTheme;
+  const { theme, setTheme } = ctx.useValue();
 
   /** Function will update the system theme and the cookie on change. */
   const _setSystemTheme = (newTheme: SystemTheme) => {
     // Store the new value in a cookie to keep track in SSR.
     jsCookie.set('system-theme', newTheme);
-    setSystemTheme(newTheme);
+    setTheme(newTheme);
   };
 
   /** Function validates if is the correct event and update the system theme. */
@@ -100,19 +78,14 @@ const useAppTheme = () => {
     }
 
     // Assign initial values.
-    const isDarkTheme = window.matchMedia(colors.dark).matches && systemTheme !== 'dark';
-    const isLightTheme = window.matchMedia(colors.light).matches && systemTheme !== 'light';
+    const isDarkTheme = window.matchMedia(colors.dark).matches && theme !== 'dark';
+    const isLightTheme = window.matchMedia(colors.light).matches && theme !== 'light';
 
     if (isDarkTheme) _setSystemTheme('dark');
     else if (isLightTheme) _setSystemTheme('light');
-  }, [systemTheme]);
+  }, [theme]);
 
-  return {
-    theme,
-    systemTheme,
-    userSelectedTheme,
-    _set: (theme: UserSelectedTheme) => setUserSelectedTheme(theme),
-  };
+  return theme;
 };
 
 export default useAppTheme;

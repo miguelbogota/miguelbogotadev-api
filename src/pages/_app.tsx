@@ -1,6 +1,7 @@
+import '../styles/global.scss';
 import type { FC } from 'react';
 import type { AppContext, AppProps as NextAppProps } from 'next/app';
-import { AppThemeProvider, SystemTheme, UserSelectedTheme } from '@app-hooks/use-app-theme';
+import { AppThemeProvider, SystemTheme } from '@app-hooks/use-app-theme';
 
 import Head from 'next/head';
 import NextApp from 'next/app';
@@ -12,15 +13,17 @@ type AppProps = NextAppProps & Awaited<ReturnType<typeof getInitialProps>>;
 
 /** Main component where you can use global config from providers. */
 const MainComponent: FC<AppProps> = ({ Component, pageProps }) => {
-  const { systemTheme } = useAppTheme();
+  const theme = useAppTheme();
 
   return (
     <>
       <Head>
         <meta name="theme-color" content="#00796b" />
-        <link rel="icon" href={`/favicons/${systemTheme}.ico`} />
+        <link rel="icon" href={`/favicons/${theme}.ico`} />
       </Head>
-      <Component {...pageProps} />
+      <div className={`container ${theme}-theme`}>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 };
@@ -41,11 +44,7 @@ const App = (props: AppProps) => (
     <MultiProvider
       providers={[
         // List of providers to use in the app.
-        <AppThemeProvider
-          key="theme-provider"
-          system={props.systemTheme}
-          userSelected={props.userSelectedTheme}
-        />,
+        <AppThemeProvider key="theme-provider" system={props.systemTheme} />,
       ]}
     >
       <MainComponent {...props} />
@@ -64,13 +63,10 @@ const getInitialProps = async (appCtx: AppContext) => {
   const cookies = cookie.parse(appCtx.ctx.req?.headers.cookie ?? '');
 
   const systemTheme = (cookies['system-theme'] ?? 'light') as SystemTheme;
-  const userSelectedTheme = (cookies['user-selected-theme'] ?? 'system') as UserSelectedTheme;
 
   return {
     ...defaultProps,
     systemTheme,
-    userSelectedTheme,
-    theme: userSelectedTheme === 'system' ? systemTheme : userSelectedTheme,
   };
 };
 
