@@ -4,11 +4,11 @@ import Cors from 'cors';
 /** List with all the origins to allow make request from. */
 const allowedOrigins = [
   // Same project.
-  'https://miguelbogotadev.vercel.app/',
+  'https://miguelbogotadev.vercel.app',
   // Main portfolio.
-  'https://miguelbogotadev.com/',
+  'https://miguelbogotadev.com',
   // Other portfolio version.
-  'https://miguelbogotadev.web.app/',
+  'https://miguelbogotadev.web.app',
 ];
 
 /**
