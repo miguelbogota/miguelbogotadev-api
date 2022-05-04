@@ -1,6 +1,6 @@
-import type { Experience } from 'public/types';
+import type { Work } from 'public/types';
 
-export const aosp: Experience = {
+export const aosp: Work = {
   isActive: false,
   id: 'aosp',
   name: 'AOSP',

@@ -1,6 +1,6 @@
-import type { Experience } from 'public/types';
+import type { Work } from 'public/types';
 
-export const nvcMovies: Experience = {
+export const nvcMovies: Work = {
   isActive: false,
   id: 'nvc-movies',
   name: 'NVC Movies',

@@ -1,15 +1,16 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import type { APIWorkResponseList } from 'public/types/api-response';
 import defaultCors from '@app-lib/default-cors';
-import experience from '@app-experience';
+import work from '@app-work';
 
 /**
  * Returns an array with all the experiences and additional data.
  */
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse<APIWorkResponseList>) => {
   // Run cors
   await defaultCors(req, res);
 
-  return res.status(200).json({ length: experience.length, experience });
+  return res.status(200).json({ length: work.length, work });
 };
 
 export default handler;

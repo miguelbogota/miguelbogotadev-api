@@ -1,6 +1,6 @@
-import type { Experience } from 'public/types';
+import type { Work } from 'public/types';
 
-export const onWatchUs: Experience = {
+export const onWatchUs: Work = {
   isActive: false,
   id: 'on-watch-us',
   name: 'On Watch Us',

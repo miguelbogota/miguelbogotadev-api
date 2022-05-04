@@ -1,6 +1,6 @@
-import type { Experience } from 'public/types';
+import type { Work } from 'public/types';
 
-export const galtex: Experience = {
+export const galtex: Work = {
   isActive: false,
   id: 'galtex',
   name: 'Galtex',
