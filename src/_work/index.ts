@@ -1,4 +1,5 @@
 import { aosp } from './aosp';
+import { aospDealers } from './aosp-dealers';
 import { clothingPark } from './clothing-park';
 import { cryptoJune } from './crypto-june';
 import { galtex } from './galtex';
@@ -12,8 +13,8 @@ import { reyWriter } from './rey-writer';
  * List with all the work sorted by started date.
  */
 const work = [
-  // Add new experiences at the top.
   aosp,
+  aospDealers,
   clothingPark,
   cryptoJune,
   galtex,
