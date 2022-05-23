@@ -1,4 +1,3 @@
-import '../styles/global.scss';
 import type { FC } from 'react';
 import type { AppContext, AppProps as NextAppProps } from 'next/app';
 import { AppThemeProvider, SystemTheme } from '@app-hooks/use-app-theme';
@@ -9,6 +8,8 @@ import cookie from 'cookie';
 import useAppTheme from '@app-hooks/use-app-theme';
 import MultiProvider from '@app-lib/multi-provider';
 
+import globalStyles from 'src/styles/global-styles';
+
 type AppProps = NextAppProps & Awaited<ReturnType<typeof getInitialProps>>;
 
 /** Main component where you can use global config from providers. */
@@ -17,6 +18,10 @@ const MainComponent: FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <>
+      <style jsx global>
+        {globalStyles}
+      </style>
+
       <Head>
         <meta name="theme-color" content="#00796b" />
         <link rel="icon" href={`/favicons/${theme}.ico`} />

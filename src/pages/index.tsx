@@ -43,4 +43,9 @@ const Home: NextPage = () => {
   );
 };
 
+/** Add this to convert the main page into a html page in the build. */
+export const getStaticProps = async () => {
+  return { props: {} };
+};
+
 export default Home;

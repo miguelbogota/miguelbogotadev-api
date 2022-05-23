@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "watch": "next dev -p 4000",
-    "watch:dev": "NODE_OPTIONS='--inspect' next dev -p 4000",
+    "watch": "next dev -p 4800",
+    "watch:dev": "NODE_OPTIONS='--inspect' next dev -p 4800",
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --ext ts --ext tsx --quiet",

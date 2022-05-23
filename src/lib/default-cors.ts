@@ -3,6 +3,8 @@ import Cors from 'cors';
 
 /** List with all the origins to allow make request from. */
 const allowedOrigins = [
+  // Local development.
+  'http://localhost:4000',
   // Same project.
   'https://miguelbogotadev.vercel.app',
   // Main portfolio.

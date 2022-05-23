@@ -2,7 +2,7 @@ import { ContentV1 } from 'public/types';
 
 export const contentV1: ContentV1 = {
   about:
-    "Fascinated by frontend and backend development. As an Next js developer I love to build stunning UI designs with highly efficient backend structures in TypeScript.\nI'm a software developer who is passionate about making open-source projects, creating technology people can enjoy and cats 🐱. Some technologies I enjoy working with include Angular, React, ASP.NET, C# and Rust.",
+    "Fascinated by frontend and backend development. As an React developer I love to build stunning UI designs with highly efficient backend structures in TypeScript.\nI'm a software developer who is passionate about making open-source projects, creating technology people can enjoy and cats 🐱. Some technologies I enjoy working with include Next js, Angular, Flutter, React Native, C# and Rust.",
   email: 'miguelbogotadev@outlook.com',
   headline: 'Software Developer',
   imageUrls: [
@@ -19,8 +19,8 @@ export const contentV1: ContentV1 = {
       url: 'https://firebasestorage.googleapis.com/v0/b/miguelbogotadev.appspot.com/o/cover-images%2Fworks.png?alt=media&token=e0e9d85b-ed66-4ebe-a733-7328b3c09c0f',
     },
   ],
-  isOpenForJobs: false,
-  name: 'Miguel Bogota',
+  isOpenForJobs: true,
+  name: 'Miguel Bogota Dev',
   pageDescriptions: {
     contact:
       "Let me help you with your project.\nIt could be just the thing your brand needs. Send me an email and I'll happily be with you in the shortest time possible.",
@@ -35,28 +35,28 @@ export const contentV1: ContentV1 = {
         'CSS / Sass / LESS',
         'JS ES6 / TS',
         '508 Accessibility',
+        'React JS',
+        'Redux / Recoil.js',
+        'Next js',
+        'Flutter',
         'Angular 2+',
         'Angular Material',
         'Bootstrap',
         'Materializecss',
         'Material UI',
         'Blazor / .NET Core',
-        'Flutter',
         'Rollup / Snowpack',
         'Gulp / Webpack',
-        'React JS',
-        'Redux / Recoil.js',
-        'Next js',
       ],
     },
     {
       category: 'Back End',
       skillNames: [
-        'NodeJs / NestJs',
+        'Node.js / Nest js',
         'PostgreSQL / MySQL',
         'SQL Server / MariaDB',
-        'Firebase / AWS / GCP',
         'REST / GraphQL',
+        'Firebase / AWS / GCP',
         'C# / .NET CoreAPI',
         'Dart / Conduit',
         'Nexus Schema',
