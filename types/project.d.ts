@@ -11,6 +11,8 @@ export interface Project {
   isCurrent: boolean;
   /** Indicates if the project is archived. */
   isArchived: boolean;
+  /** Indicates if the project is an aggregate of multiple related projects. */
+  aggregate?: boolean;
   /** Project title. */
   displayName: string;
   /** Brief overview of what the project does. */

@@ -41,6 +41,10 @@
       "type": "boolean",
       "description": "Indicates if the project is archived."
     },
+    "aggregate": {
+      "type": "boolean",
+      "description": "Indicates if the project is an aggregate of multiple related projects."
+    },
     "displayName": {
       "type": "string",
       "description": "Project title."

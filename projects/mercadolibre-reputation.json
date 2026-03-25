@@ -4,6 +4,7 @@
   "startedAt": "2023-08-16",
   "isCurrent": true,
   "isArchived": false,
+  "aggregate": true,
   "displayName": "Mercado Libre (Reputation)",
   "description": "The Mercado Libre Reputation System Evolution modernizes seller and buyer trust mechanisms through AI-powered workflows across multiple countries. The new system automates reputation processes, reduces fraud, and significantly improves the buyer experience when discovering new sellers and items.",
   "role": "Senior Software Engineer",
