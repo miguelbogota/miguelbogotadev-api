@@ -1,0 +1,38 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "mercadolibre-sales",
+  "startedAt": "2022-08-16",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "Mercado Libre Sales Platform Integration",
+  "description": "The Mercado Libre Sales Platform Integration project unifies the Mercado Pago and Mercado Libre ecosystems into a single, cohesive seller experience. Sellers can now view all transaction data, sales metrics, and payment information across both platforms in one consolidated dashboard.",
+  "role": "Senior Software Engineer",
+  "companyName": "Mercado Libre",
+  "industry": "E-commerce & Fintech",
+  "tags": [
+    "Platform Integration",
+    "React",
+    "Microservices",
+    "API Integration",
+    "Seller Experience",
+    "Cross-platform Data",
+    "Large Scale Systems",
+    "Performance Optimization",
+    "Team Leadership",
+    "Enterprise Development"
+  ],
+  "challenge": {
+    "title": "Integrating two distinct platforms—Mercado Pago and Mercado Libre—into a unified seller experience that consolidates all sales and payment data.",
+    "description": "Sellers faced a fragmented experience, forced to toggle between Mercado Pago for payment data and Mercado Libre for sales data. Building a single source of truth required deep coordination with multiple teams across different codebases and architectures. The technical challenge was immense: reconciling different data models, handling eventual consistency across systems, managing billions of transactions, and ensuring sub-second response times across geographies. More importantly, it required organizational alignment—convincing teams to collaborate on shared infrastructure despite working on separate product milestones."
+  },
+  "solution": {
+    "title": "Leading the architectural effort to integrate both platforms through a unified codebase and cross-team collaboration, enabling sellers to see all sales and payments in one place.",
+    "description": "As a senior engineer on the sales team, I led the initiative to create a shared repository and unified API layer that seamlessly accessed data from both Mercado Pago and Mercado Libre. Rather than attempting a full merge of codebases, we architected a sophisticated integration layer that provided a single view of customer data while respecting each platform's autonomy. This required working closely with engineering teams across both products, aligning on data contracts and establishing shared development practices. We implemented intelligent caching strategies to handle the massive transaction volumes without impacting performance. The result transformed the seller experience—they no longer bounce between apps. Today, sellers can view all their Mercado Pago transactions and Mercado Libre sales in both applications. This integration increased seller engagement significantly and became a core competitive advantage for the Mercado Libre ecosystem."
+  },
+  "images": [
+    {
+      "src": "/project-images/mercadolibre-sales/01.png",
+      "alt": "Mercado Libre Sales - Unified Seller Dashboard"
+    }
+  ]
+}

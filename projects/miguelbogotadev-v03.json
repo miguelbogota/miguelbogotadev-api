@@ -1,0 +1,42 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "miguelbogotadev-v03",
+  "startedAt": "2026-01-01",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "Miguel Bogota Dev V3",
+  "description": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Portfolio",
+  "tags": [
+    "TanStack Start",
+    "React",
+    "TypeScript",
+    "Firebase App Hosting",
+    "Fullstack Framework",
+    "Server Functions",
+    "API Integration",
+    "Isomorphic JavaScript",
+    "Modern Web Architecture",
+    "Performance"
+  ],
+  "challenge": {
+    "title": "Exploring next-generation fullstack frameworks that blur the lines between client and server while maintaining a unified development experience.",
+    "description": "As the web platform evolved, new frameworks emerged offering unprecedented developer experience through better abstraction of client-server boundaries. The challenge was evaluating TanStack Start as a next-generation fullstack framework—understanding its server function capabilities, file-based routing, and how to effectively structure a portfolio application using these new paradigms. This required rethinking architectural patterns and embracing a more integrated approach to fullstack development."
+  },
+  "solution": {
+    "title": "Architecting a modern portfolio with TanStack Start and Firebase App Hosting, demonstrating cutting-edge fullstack development patterns.",
+    "description": "V3 represents the current evolution of the portfolio, built with TanStack Start to explore modern fullstack framework capabilities. Server functions handle backend logic seamlessly, enabling isomorphic code that runs on both client and server as appropriate. The application continues to integrate with the Miguel Bogota Dev API for data management, maintaining the separation of concerns established in v2. Firebase App Hosting provides a modern deployment platform optimized for fullstack applications. TypeScript throughout ensures type safety across the entire application. This version serves as both a functional portfolio and an experimental ground for evaluating emerging web technologies. The progression from v1 to v3 demonstrates the rapid evolution of web development tools and the importance of staying current with modern practices."
+  },
+  "images": [
+    {
+      "src": "/project-images/miguelbogotadev-v3/01.png",
+      "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
+    "website": "https://miguelbogotadev-v3.web.app"
+  }
+}

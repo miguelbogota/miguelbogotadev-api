@@ -1,0 +1,45 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "aosp-dealers",
+  "startedAt": "2022-03-21",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "AOSP Dealers",
+  "description": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
+  "role": "Front End Angular Developer",
+  "companyName": "Newton Vision Corporation",
+  "industry": "Enterprise Software & Consulting",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Reactive Forms",
+    "Angular Reactive Forms",
+    "Form Management",
+    "Data-driven UI",
+    "Performance Optimization",
+    "Dealer Operations",
+    "Workflow Optimization",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Greenfield Development"
+  ],
+  "challenge": {
+    "title": "Building a modern dealer operations platform from scratch that improves workflow efficiency and reduces operational friction.",
+    "description": "Dealers were operating with outdated systems that introduced friction into their daily workflows. The challenge was architecting a brand new platform that not only modernized the technology stack, but fundamentally improved operational efficiency. This meant understanding dealer workflows deeply, anticipating pain points, and designing a UI that made complex operations intuitive. Performance was critical—dealers needed instant feedback and responsiveness."
+  },
+  "solution": {
+    "title": "Architecting a greenfield dealer platform with Angular Reactive Forms, achieving 10% performance improvement in AmeriCasa operations.",
+    "description": "I led the frontend development of AOSP Dealers as a complete greenfield project. By starting fresh, I had the opportunity to implement modern Angular patterns from day one, including sophisticated form management with Angular Reactive Forms for handling complex dealer workflows. The data-driven UI ensured information was presented contextually and intuitively. Through careful performance optimization, the platform delivered 10% efficiency gains for AmeriCasa dealers—measurable time savings in their daily operations. The codebase was built on solid foundations with TypeScript, ESLint, and Prettier enforcing quality throughout. The result is a platform that dealers actively prefer using, a testament to thoughtful engineering and user-focused development."
+  },
+  "images": [
+    {
+      "src": "/project-images/aosp-dealers/01.png",
+      "alt": "AOSP Dealers - Dealer Operations Dashboard"
+    },
+    {
+      "src": "/project-images/aosp-dealers/02.png",
+      "alt": "AOSP Dealers - Workflow Management Interface"
+    }
+  ]
+}

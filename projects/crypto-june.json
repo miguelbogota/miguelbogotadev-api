@@ -1,0 +1,54 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "crypto-june",
+  "startedAt": "2022-04-25",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "Crypto June",
+  "description": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
+  "role": "React Native Cross-Platform Developer",
+  "companyName": "Personal Project",
+  "industry": "Fintech & Cryptocurrency",
+  "tags": [
+    "React Native",
+    "Expo",
+    "TypeScript",
+    "Mobile Development",
+    "RNUILib",
+    "CoinGecko API",
+    "Real-time Data",
+    "Redux",
+    "Redux Toolkit",
+    "State Management",
+    "SWR",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Cross-platform Development"
+  ],
+  "challenge": {
+    "title": "Engineering a performant cryptocurrency tracking app that delivers real-time price updates across iOS and Android while maintaining smooth UI performance.",
+    "description": "Building a cryptocurrency price tracker required solving multiple technical challenges simultaneously. The app needed to fetch real-time data from external APIs, display updates instantly without draining battery or bandwidth, and maintain a smooth, responsive interface across different device capabilities. As the sole developer, I also needed to master both iOS and Android deployment while ensuring the codebase remained maintainable for future enhancements."
+  },
+  "solution": {
+    "title": "Architecting a cross-platform mobile app using React Native and Expo to deliver native performance with shared code across iOS and Android platforms.",
+    "description": "I built Crypto June as a complete learning project in mobile development, leveraging React Native and Expo to maximize code reuse while delivering native performance on both iOS and Android. The app integrates with the CoinGecko API for real-time cryptocurrency data, using SWR for intelligent caching and efficient data fetching. Redux and Redux Toolkit manage complex application state around user portfolios and price alerts. The UI layer uses RNUILib for a polished, native-feeling experience with smooth animations. By enforcing code quality with TypeScript, ESLint, and Prettier throughout development, I ensured the codebase remained professional and maintainable. The result demonstrates the feasibility of building production-quality fintech applications with React Native."
+  },
+  "images": [
+    {
+      "src": "/project-images/crypto-june/01.png",
+      "alt": "Crypto June - Cryptocurrency Price Dashboard"
+    },
+    {
+      "src": "/project-images/crypto-june/02.gif",
+      "alt": "Crypto June - Real-time Price Updates Animation"
+    },
+    {
+      "src": "/project-images/crypto-june/03.png",
+      "alt": "Crypto June - Portfolio Management Screen"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/crypto-june"
+  }
+}

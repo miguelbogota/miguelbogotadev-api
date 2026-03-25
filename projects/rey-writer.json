@@ -1,0 +1,47 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "rey-writer",
+  "startedAt": "2020-07-11",
+  "isCurrent": false,
+  "isArchived": true,
+  "name": "Rey Writer",
+  "description": "Rey Writer is a sophisticated personal blogging platform designed to showcase compelling narratives and literary content with an emphasis on visual elegance and readability. The platform combines a responsive frontend experience with robust backend infrastructure to deliver stories in a minimalist, distraction-free environment.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Publishing / Content Creation",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Firebase",
+    "Responsive Design",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Web Performance"
+  ],
+  "challenge": {
+    "title": "Creating a distraction-free publishing platform that balances aesthetic minimalism with feature-rich content management while maintaining exceptional performance.",
+    "description": "Building a blog platform required more than just displaying text—it demanded a thoughtful approach to content hierarchy, visual presentation, and user experience. The challenge was designing an interface so intuitive and minimal that readers focus solely on the content, while ensuring the backend could handle dynamic content management, fast page loads, and scalable infrastructure without unnecessary complexity."
+  },
+  "solution": {
+    "title": "Architecting a full-stack publishing platform with Angular for a responsive, performant frontend and Firebase for scalable backend infrastructure.",
+    "description": "Rey Writer was built with Angular to create a flexible, component-driven architecture capable of handling complex content rendering and state management. By leveraging Firebase, I established a serverless backend that eliminated infrastructure overhead while providing real-time data synchronization. The minimalist design philosophy was enforced through careful attention to typography, spacing, and visual hierarchy. Code quality tools like ESLint and Prettier ensured consistency across the codebase. The result is a platform that feels lightweight and focused—exactly what serious writers need to share their stories with the world."
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "alt": "Rey Writer - Minimalist Blog Homepage"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1569322977266-acff659212fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "alt": "Rey Writer - Article Reading Experience"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
+      "alt": "Rey Writer - Content Management Interface"
+    }
+  ],
+  "links": {
+    "website": "TODO"
+  }
+}

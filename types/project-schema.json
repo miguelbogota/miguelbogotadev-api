@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "project.schema.json",
+  "title": "Project",
+  "description": "Represents a portfolio project with comprehensive details about its scope, implementation, and resources.",
+  "type": "object",
+  "required": [
+    "id",
+    "startedAt",
+    "isCurrent",
+    "isArchived",
+    "name",
+    "description",
+    "role",
+    "companyName",
+    "industry",
+    "tags",
+    "challenge",
+    "solution",
+    "images"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "JSON Schema reference (metadata)."
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the project."
+    },
+    "startedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Project start date in format yyyy-mm-dd."
+    },
+    "isCurrent": {
+      "type": "boolean",
+      "description": "Indicates if the project is currently active."
+    },
+    "isArchived": {
+      "type": "boolean",
+      "description": "Indicates if the project is archived."
+    },
+    "name": {
+      "type": "string",
+      "description": "Project title."
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief overview of what the project does."
+    },
+    "role": {
+      "type": "string",
+      "description": "User's role or position in the project."
+    },
+    "companyName": {
+      "type": "string",
+      "description": "Organization or company associated with the project."
+    },
+    "industry": {
+      "type": "string",
+      "description": "Industry, domain, or category (e.g., \"Finance\", \"E-commerce\")."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Technology stack and relevant keywords."
+    },
+    "challenge": {
+      "type": "object",
+      "required": ["title", "description"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Challenge headline that reads naturally as a sentence."
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed explanation of the problem."
+        }
+      },
+      "description": "Describes the problem being solved."
+    },
+    "solution": {
+      "type": "object",
+      "required": ["title", "description"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Solution headline that reads naturally as a sentence."
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed explanation of the approach."
+        }
+      },
+      "description": "Describes how the challenge was addressed."
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["src", "alt"],
+        "properties": {
+          "src": {
+            "type": "string",
+            "description": "Image file path or URL."
+          },
+          "alt": {
+            "type": "string",
+            "description": "Accessible text describing the image."
+          }
+        }
+      },
+      "description": "Project showcase images."
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "github": {
+          "type": "string",
+          "format": "uri",
+          "description": "GitHub repository URL."
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Live project or website URL."
+        }
+      },
+      "description": "External resources related to the project."
+    }
+  },
+  "additionalProperties": false
+}

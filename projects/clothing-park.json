@@ -1,0 +1,51 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "clothing-park",
+  "startedAt": "2020-10-21",
+  "isCurrent": false,
+  "isArchived": true,
+  "name": "Clothing Park",
+  "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
+  "role": "React Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "E-commerce",
+  "tags": [
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Stripe",
+    "Typescript",
+    "Redux",
+    "Redux Sagas",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Sass"
+  ],
+  "challenge": {
+    "title": "Mastering advanced state management patterns while building a production-grade application without prior hands-on experience.",
+    "description": "Learning React fundamentals was just the beginning. The real challenge emerged when tackling Redux architecture, Redux Sagas for side effects, and integrating third-party services like Stripe for payment processing. Managing complex application state across multiple components, handling asynchronous operations, and maintaining code quality standards felt overwhelming. I needed a practical project to bridge theory and implementation."
+  },
+  "solution": {
+    "title": "Building a complete e-commerce platform from concept to deployment, using it as a learning laboratory for advanced React patterns and full-stack development.",
+    "description": "I created Clothing Park as a deliberate learning exercise. By implementing Redux for centralized state management and Redux Sagas for complex async workflows, I gained hands-on experience with industry-standard patterns. The full-stack development—React frontend, Node.js backend, PostgreSQL database, and Stripe integration—forced me to understand not just individual tools, but how they work together. Enforcing TypeScript, ESLint, and Prettier from the start ensured I built professional coding habits early. The result was a production-ready application that transformed theoretical knowledge into practical expertise."
+  },
+  "images": [
+    {
+      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
+      "alt": "Clothing Park - Home Page"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
+      "alt": "Clothing Park - Shop Page"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
+      "alt": "Clothing Park - Checkout Page"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/clothing-park",
+    "website": "https://clothing-park.web.app"
+  }
+}

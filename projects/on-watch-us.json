@@ -1,0 +1,40 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "on-watch-us",
+  "startedAt": "2021-03-15",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "On Watch Us",
+  "description": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
+  "role": "Node.js & Flutter Senior Developer",
+  "companyName": "On Watch Us",
+  "industry": "Maritime & Logistics",
+  "tags": [
+    "Flutter",
+    "Node.js",
+    "Dart",
+    "Backend Development",
+    "Mobile Development",
+    "Conduit Framework",
+    "Object-Oriented Programming",
+    "Real-time Communication",
+    "Safety Critical Systems"
+  ],
+  "challenge": {
+    "title": "Building a safety-critical maritime application that seamlessly integrates mobile functionality with a robust backend while prioritizing real-time communication and reliability.",
+    "description": "Maritime operations demand precision, speed, and reliability that cannot tolerate failure. The challenge was architecting a system where pilots could communicate vessel guidance information with port authorities instantaneously, across diverse devices and network conditions. This required not just elegant code, but systems thinking—understanding how cross-platform mobile applications and backend services must integrate to support mission-critical operations where mistakes can have serious consequences."
+  },
+  "solution": {
+    "title": "Leading the development of a comprehensive maritime coordination platform using Flutter for cross-platform mobile delivery and Node.js, Conduit for a scalable backend.",
+    "description": "As lead senior developer, I architected both the mobile and backend layers of On Watch Us. Flutter provided the foundation for delivering a responsive, native-feeling mobile experience across platforms—critical for pilots working in dynamic port environments. On the backend, I implemented a Node.js service using the Conduit framework, creating a scalable, maintainable infrastructure designed for real-time data exchange. By applying object-oriented programming principles, I ensured the codebase remained maintainable and extensible. The result was a platform that successfully simplified port communication workflows in Galveston, enabling safer and faster vessel guidance operations."
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "alt": "On Watch Us - Maritime Navigation Platform"
+    }
+  ],
+  "links": {
+    "website": "https://onwatchus.com"
+  }
+}

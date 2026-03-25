@@ -1,0 +1,41 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "galtex",
+  "startedAt": "2020-11-09",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "Galtex",
+  "description": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
+  "role": "Senior Developer & Quality Analyst",
+  "companyName": "Newton Vision Corporation",
+  "industry": "Enterprise Software",
+  "tags": [
+    "TypeScript",
+    "React",
+    "React Native",
+    "Cross-platform Development",
+    "Redux",
+    "Redux Sagas",
+    "Performance Optimization",
+    "Accessibility",
+    "Security",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Team Leadership"
+  ],
+  "challenge": {
+    "title": "Modernizing a legacy order management system while leading a team to achieve measurable improvements in security, accessibility, and performance.",
+    "description": "The original order management system had become a bottleneck for operations. It lacked modern security standards, failed to meet accessibility requirements, and struggled under performance demands. As a senior developer and quality analyst, I faced the challenge of not just rebuilding the platform, but doing so while mentoring a team through a complete architectural overhaul. This required technical expertise, strategic thinking, and leadership to drive consensus and maintain quality standards throughout the transformation."
+  },
+  "solution": {
+    "title": "Leading the development of a modernized cross-platform order management system achieving 33% performance improvement and accessibility compliance.",
+    "description": "I led the Galtex modernization initiative, architecting a new solution built with TypeScript, React for web, and React Native for mobile—enabling employees to access order management from any device. I implemented Redux and Redux Sagas for predictable state management and complex async workflows. The team enforced strict code quality standards with ESLint and Prettier from day one. Through careful optimization and performance profiling, we achieved a 33% performance improvement while simultaneously implementing comprehensive accessibility features. The security-first approach included encrypted communications, role-based access controls, and audit logging. The result transformed Galtex from a legacy system into a modern, performant platform that enabled employees to work more efficiently while maintaining enterprise-grade security and accessibility standards."
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "alt": "Galtex - Enterprise Order Management Platform"
+    }
+  ]
+}

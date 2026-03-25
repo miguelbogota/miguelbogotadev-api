@@ -1,0 +1,41 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "miguelbogotadev-v01",
+  "startedAt": "2021-01-11",
+  "isCurrent": false,
+  "isArchived": true,
+  "name": "Miguel Bogota Dev V1",
+  "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Portfolio",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Firebase",
+    "Angular Animation",
+    "State Management",
+    "Minimalist Design",
+    "Responsive Design",
+    "Web Development",
+    "Portfolio Website"
+  ],
+  "challenge": {
+    "title": "Designing a minimalist portfolio that demonstrates technical skills through elegant interactions and clean visual presentation.",
+    "description": "Building a personal portfolio meant more than displaying projects—it needed to be a testament to design sensibility and technical capability. The challenge was creating an interface so minimal and purposeful that every visual element served a function. Angular animations needed to feel natural, state management had to be invisible to the user, and the overall experience had to feel modern and professional despite the constraints of Firebase's basic backend structure."
+  },
+  "solution": {
+    "title": "Creating a minimalist portfolio platform with Angular animations and state management to deliver a polished, modern portfolio experience.",
+    "description": "I built the first version of my portfolio with Angular as the frontend framework, leveraging its powerful animation system to craft smooth, purposeful transitions that enhance rather than distract. Firebase provided backend infrastructure for content management and hosting. Using Angular's built-in state management capabilities, I ensured the application remained responsive and performant. The design philosophy was ruthless minimalism—every visual element was intentional, every interaction meaningful. The result is a portfolio that showcases not just the work itself, but the attention to detail and technical craftsmanship behind its construction. This v1 served as a learning foundation for building professional portfolio presence online."
+  },
+  "images": [
+    {
+      "src": "/project-images/miguelbogotadev-v1/01.png",
+      "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
+    "website": "https://miguelbogotadev.web.app"
+  }
+}

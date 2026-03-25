@@ -1,0 +1,42 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "miguelbogotadev-v02",
+  "startedAt": "2023-06-15",
+  "isCurrent": false,
+  "isArchived": true,
+  "name": "Miguel Bogota Dev V2",
+  "description": "Miguel Bogota Dev V2 is the second iteration of the personal portfolio, built with Next.js for improved performance and server-side rendering capabilities. The portfolio integrates with the Miguel Bogota Dev API to fetch project and experience data, creating a dynamic, data-driven experience with modern fullstack architecture.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Portfolio",
+  "tags": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Firebase Hosting",
+    "Cloud Functions",
+    "Server-side Rendering",
+    "API Integration",
+    "Performance Optimization",
+    "Data-driven Content",
+    "Modern Portfolio"
+  ],
+  "challenge": {
+    "title": "Modernizing the portfolio architecture with server-side rendering while establishing a clean separation between data management and presentation layers.",
+    "description": "Version 1 worked well, but modern web standards demanded better performance, SEO, and scalability. The challenge was migrating from a purely client-side Angular app to a Next.js fullstack architecture that leveraged server-side rendering for superior performance. Additionally, integrating with the newly created Miguel Bogota Dev API meant establishing reliable client-server communication patterns and handling data fetching efficiently."
+  },
+  "solution": {
+    "title": "Building a modernized portfolio with Next.js, Firebase Cloud Functions, and API integration for superior performance and data management.",
+    "description": "I rebuilt the portfolio with Next.js to unlock server-side rendering benefits and improved performance metrics. The application consumes data from the Miguel Bogota Dev API, creating a clean separation between content management and presentation. Firebase Hosting provides the frontend infrastructure, while Cloud Functions handle serverless backend operations. This architecture enables dynamic content updates without redeploying the entire application. TypeScript enforces type safety throughout the stack. The experience demonstrated the power of modern fullstack frameworks and the importance of scalable data architectures. V2 served as a bridge between v1's foundation and the modern frameworks that would follow."
+  },
+  "images": [
+    {
+      "src": "/project-images/miguelbogotadev-v2/01.png",
+      "alt": "Miguel Bogota Dev V2 - Modern Portfolio Interface"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/miguelbogotadev-v2",
+    "website": "https://miguelbogotadev-v2.web.app"
+  }
+}

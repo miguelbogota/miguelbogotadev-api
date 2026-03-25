@@ -1,0 +1,40 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "aosp",
+  "startedAt": "2020-05-12",
+  "isCurrent": false,
+  "isArchived": false,
+  "name": "AOSP",
+  "description": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
+  "role": "Front End Developer & Quality Analyst",
+  "companyName": "Newton Vision Corporation",
+  "industry": "Enterprise Software & Consulting",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Front-end Development",
+    "Quality Assurance",
+    "GitHub Project Management",
+    "SEO Optimization",
+    "Web Accessibility",
+    "Performance Optimization",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Team Leadership"
+  ],
+  "challenge": {
+    "title": "Establishing quality standards and leading a development team to deliver an enterprise Angular platform that drives measurable business growth.",
+    "description": "Starting as a quality analyst, I identified inefficiencies in the development process and project management. The challenge was not just writing code, but creating a culture of excellence through proper GitHub workflows, automated testing, and peer review processes. Later tasked with leading the team, I needed to balance technical direction with team dynamics while delivering features that directly impacted business metrics—sales optimization and customer experience through accessibility and SEO."
+  },
+  "solution": {
+    "title": "Leading the AOSP platform development with Angular, growing sales by 5% through optimized customer experience and improved web accessibility.",
+    "description": "I started as a quality analyst, implementing rigorous GitHub project management and code quality standards that elevated the entire team's output. My dedication earned a promotion to senior developer, where I led the team in architecting the AOSP platform with Angular. The frontend was built with scalability and user experience as primary concerns. I championed SEO optimization and web accessibility improvements on the landing page, resulting in better customer reviews and a 5% sales increase. Through consistent application of code quality tools like ESLint and Prettier, I ensured the codebase remained clean and maintainable. The project demonstrated how technical excellence and quality-first processes directly drive business outcomes."
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "alt": "AOSP - Enterprise Business Transformation Platform"
+    }
+  ]
+}

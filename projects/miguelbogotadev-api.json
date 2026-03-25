@@ -1,0 +1,44 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "miguelbogotadev-api",
+  "startedAt": "2022-05-03",
+  "isCurrent": true,
+  "isArchived": false,
+  "name": "Miguel Bogota Dev API",
+  "description": "Miguel Bogota Dev API is a centralized data repository built with Next.js that serves as a single source of truth for portfolio, project, and experience data. The API provides structured endpoints for retrieving comprehensive information about professional work, enabling seamless integration across multiple portfolio frontends and applications.",
+  "role": "Next.js Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Developer Infrastructure",
+  "tags": [
+    "Next.js",
+    "React",
+    "Node.js",
+    "API Design",
+    "RESTful Architecture",
+    "Data Management",
+    "TypeScript",
+    "Backend Infrastructure",
+    "Portfolio Management",
+    "ESLint",
+    "Prettier",
+    "Vercel"
+  ],
+  "challenge": {
+    "title": "Creating a unified data architecture that centralizes portfolio information for seamless integration across multiple frontend applications.",
+    "description": "Managing portfolio data across multiple sites and applications creates inconsistencies and maintenance headaches. The challenge was designing and implementing a robust backend infrastructure that could serve as a single source of truth—providing consistent, well-structured data through clean APIs. This required thoughtful data modeling, caching strategies, and an architecture flexible enough to support current and future portfolio applications."
+  },
+  "solution": {
+    "title": "Building a Next.js-backed API infrastructure that centralizes all portfolio and experience data in a unified, maintainable repository.",
+    "description": "I architected Miguel Bogota Dev API as a Next.js application combining the benefits of server-side rendering with powerful API capabilities. The API exposes clean, well-documented endpoints that deliver structured data about projects, work experience, and portfolio information. By establishing a single source of truth, any portfolio frontend—whether v1, v2, or future versions—can reliably consume the same data without duplication or synchronization issues. The codebase is maintained with TypeScript, ESLint, and Prettier ensuring production-grade quality. Deployed on Vercel for reliable, fast global distribution. This infrastructure project demonstrates architectural thinking and the importance of building scalable backend systems that enable frontend flexibility."
+  },
+  "images": [
+    {
+      "src": "/project-images/miguelbogotadev-api/01.png",
+      "alt": "Miguel Bogota Dev API - Data Infrastructure"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/miguelbogotadev-api",
+    "website": "https://miguelbogotadev-api.vercel.app"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "mercadolibre-reputation",
+  "startedAt": "2023-08-16",
+  "isCurrent": true,
+  "isArchived": false,
+  "name": "Mercado Libre Reputation System Evolution",
+  "description": "The Mercado Libre Reputation System Evolution modernizes seller and buyer trust mechanisms through AI-powered workflows across multiple countries. The new system automates reputation processes, reduces fraud, and significantly improves the buyer experience when discovering new sellers and items.",
+  "role": "Senior Software Engineer",
+  "companyName": "Mercado Libre",
+  "industry": "E-commerce & Fintech",
+  "tags": [
+    "Machine Learning",
+    "AI Workflows",
+    "Reputation Systems",
+    "Trust & Safety",
+    "Multi-country Scaling",
+    "Automation",
+    "Data Processing",
+    "Backend Systems",
+    "Process Optimization",
+    "Revenue Growth"
+  ],
+  "challenge": {
+    "title": "Migrating legacy reputation systems across multiple countries while introducing AI-driven automation to reduce manual processes and improve trust.",
+    "description": "Mercado Libre's reputation system was showing its age. Legacy implementations varied across countries, creating inconsistent seller experiences and making manual trust evaluation a bottleneck. The challenge was three-fold: migrate sellers and their historical reputation data from the old system without disruption, standardize reputation logic across countries with different regulatory and market requirements, and introduce AI workflows to dramatically reduce manual intervention. All of this required careful planning, phased rollouts, and close coordination with sellers and marketplace trust teams."
+  },
+  "solution": {
+    "title": "Engineering a next-generation reputation system with AI workflows that accelerated country rollout and significantly increased seller program adoption and company revenue.",
+    "description": "I led the reputation team through a comprehensive modernization effort. We architected a new reputation system built on machine learning foundations, capable of analyzing transaction patterns, user behavior, and market signals to automatically assess seller trustworthiness. We created a phased migration plan that reduced risk—moving countries in waves, continuously validating that AI decisions matched or exceeded human judgment. The new system integrates sophisticated AI workflows that automate reputation scoring, fraud detection, and trust assessment. For buyers, this meant discovering new sellers with confidence. For sellers, it meant fair, transparent reputation mechanics that reward good behavior. The results were exceptional: significantly accelerated program takeoff in each country as sellers gained confidence in the system, and direct revenue impact through reduced fraud and increased transaction volumes. The reputation system is now a strategic asset that enhances trust across the entire Mercado Libre ecosystem."
+  },
+  "images": [
+    {
+      "src": "/project-images/mercadolibre-reputation/01.png",
+      "alt": "Mercado Libre Reputation - AI-powered Trust System"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "nvc-movies",
+  "startedAt": "2020-09-12",
+  "isCurrent": false,
+  "isArchived": true,
+  "name": "NVC Movies",
+  "description": "NVC Movies is a comprehensive movie discovery and curation platform that aggregates detailed film information and enables users to discover, explore, and rank movies based on personalized preferences. The platform combines rich data visualization with an intuitive rating system.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Entertainment & Media",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Movie Database Integration",
+    "Data Visualization",
+    "Rating Systems",
+    "ESLint",
+    "Prettier",
+    "Babel",
+    "Web Performance"
+  ],
+  "challenge": {
+    "title": "Building a scalable movie discovery platform that aggregates diverse data sources while providing an engaging user experience for browsing and ranking films.",
+    "description": "Creating a movie application meant interfacing with external APIs, handling large datasets efficiently, and designing an interface that makes sense of hundreds of films. The challenge involved architecting a frontend that could gracefully handle data loading, searching, filtering, and maintaining user rankings without becoming cluttered or overwhelming. This was an opportunity to strengthen full-stack fundamentals while exploring Angular's capabilities for complex data manipulation."
+  },
+  "solution": {
+    "title": "Developing a full-stack movie platform with Angular for dynamic front-end interactivity and Firebase for serverless backend support.",
+    "description": "NVC Movies was architected with Angular to leverage its powerful data binding and component architecture for creating responsive interfaces. I integrated movie database APIs to populate rich film information—titles, descriptions, ratings, and imagery. The application features a custom ranking system that allows users to create personalized movie lists, with all data persisting through Firebase. Code quality was maintained throughout with ESLint and Prettier enforcing consistent standards. The result is a polished application that demonstrates end-to-end full-stack development capabilities, from API integration to user interface design."
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1512070679279-8988d32161be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=678&q=80",
+      "alt": "NVC Movies - Movie Discovery Platform"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/miguelbogota/nvc-movies",
+    "website": "https://nvc-moviesm.web.app"
+  }
+}
