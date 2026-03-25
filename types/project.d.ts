@@ -12,7 +12,7 @@ export interface Project {
   /** Indicates if the project is archived. */
   isArchived: boolean;
   /** Project title. */
-  name: string;
+  displayName: string;
   /** Brief overview of what the project does. */
   description: string;
   /** User's role or position in the project. */

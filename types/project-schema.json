@@ -9,7 +9,7 @@
     "startedAt",
     "isCurrent",
     "isArchived",
-    "name",
+    "displayName",
     "description",
     "role",
     "companyName",
@@ -41,7 +41,7 @@
       "type": "boolean",
       "description": "Indicates if the project is archived."
     },
-    "name": {
+    "displayName": {
       "type": "string",
       "description": "Project title."
     },

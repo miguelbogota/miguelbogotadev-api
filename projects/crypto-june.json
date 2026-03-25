@@ -4,7 +4,7 @@
   "startedAt": "2022-04-25",
   "isCurrent": false,
   "isArchived": false,
-  "name": "Crypto June",
+  "displayName": "Crypto June",
   "description": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
   "role": "React Native Cross-Platform Developer",
   "companyName": "Personal Project",

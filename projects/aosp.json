@@ -4,7 +4,7 @@
   "startedAt": "2020-05-12",
   "isCurrent": false,
   "isArchived": false,
-  "name": "AOSP",
+  "displayName": "AOSP",
   "description": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
   "role": "Front End Developer & Quality Analyst",
   "companyName": "Newton Vision Corporation",

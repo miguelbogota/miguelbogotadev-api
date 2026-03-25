@@ -4,7 +4,7 @@
   "startedAt": "2022-03-21",
   "isCurrent": false,
   "isArchived": false,
-  "name": "AOSP Dealers",
+  "displayName": "AOSP Dealers",
   "description": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
   "role": "Front End Angular Developer",
   "companyName": "Newton Vision Corporation",

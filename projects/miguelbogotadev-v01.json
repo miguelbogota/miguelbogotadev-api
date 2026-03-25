@@ -4,7 +4,7 @@
   "startedAt": "2021-01-11",
   "isCurrent": false,
   "isArchived": true,
-  "name": "Miguel Bogota Dev V1",
+  "displayName": "Miguel Bogota Dev V1",
   "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",

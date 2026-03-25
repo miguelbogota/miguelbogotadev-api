@@ -4,7 +4,7 @@
   "startedAt": "2020-07-11",
   "isCurrent": false,
   "isArchived": true,
-  "name": "Rey Writer",
+  "displayName": "Rey Writer",
   "description": "Rey Writer is a sophisticated personal blogging platform designed to showcase compelling narratives and literary content with an emphasis on visual elegance and readability. The platform combines a responsive frontend experience with robust backend infrastructure to deliver stories in a minimalist, distraction-free environment.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",

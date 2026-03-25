@@ -4,7 +4,7 @@
   "startedAt": "2021-03-15",
   "isCurrent": false,
   "isArchived": false,
-  "name": "On Watch Us",
+  "displayName": "On Watch Us",
   "description": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
   "role": "Node.js & Flutter Senior Developer",
   "companyName": "On Watch Us",

@@ -4,7 +4,7 @@
   "startedAt": "2020-10-21",
   "isCurrent": false,
   "isArchived": true,
-  "name": "Clothing Park",
+  "displayName": "Clothing Park",
   "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
   "role": "React Full Stack Developer",
   "companyName": "Personal Project",
