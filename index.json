@@ -1,231 +1,5 @@
 [
   {
-    "id": "aosp-dealers",
-    "startedAt": "2022-03-21",
-    "isCurrent": false,
-    "isArchived": false,
-    "displayName": "AOSP Dealers",
-    "description": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
-    "role": "Front End Angular Developer",
-    "companyName": "Newton Vision Corporation",
-    "industry": "Enterprise Software & Consulting",
-    "tags": [
-      "Angular",
-      "TypeScript",
-      "Reactive Forms",
-      "Angular Reactive Forms",
-      "Form Management",
-      "Data-driven UI",
-      "Performance Optimization",
-      "Dealer Operations",
-      "Workflow Optimization",
-      "ESLint",
-      "Prettier",
-      "Babel",
-      "Greenfield Development"
-    ],
-    "challenge": {
-      "title": "Building a modern dealer operations platform from scratch that improves workflow efficiency and reduces operational friction.",
-      "description": "Dealers were operating with outdated systems that introduced friction into their daily workflows. The challenge was architecting a brand new platform that not only modernized the technology stack, but fundamentally improved operational efficiency. This meant understanding dealer workflows deeply, anticipating pain points, and designing a UI that made complex operations intuitive. Performance was critical—dealers needed instant feedback and responsiveness."
-    },
-    "solution": {
-      "title": "Architecting a greenfield dealer platform with Angular Reactive Forms, achieving 10% performance improvement in AmeriCasa operations.",
-      "description": "I led the frontend development of AOSP Dealers as a complete greenfield project. By starting fresh, I had the opportunity to implement modern Angular patterns from day one, including sophisticated form management with Angular Reactive Forms for handling complex dealer workflows. The data-driven UI ensured information was presented contextually and intuitively. Through careful performance optimization, the platform delivered 10% efficiency gains for AmeriCasa dealers—measurable time savings in their daily operations. The codebase was built on solid foundations with TypeScript, ESLint, and Prettier enforcing quality throughout. The result is a platform that dealers actively prefer using, a testament to thoughtful engineering and user-focused development."
-    },
-    "images": [
-      {
-        "src": "/project-images/aosp-dealers/01.png",
-        "alt": "AOSP Dealers - Dealer Operations Dashboard"
-      },
-      {
-        "src": "/project-images/aosp-dealers/02.png",
-        "alt": "AOSP Dealers - Workflow Management Interface"
-      }
-    ]
-  },
-  {
-    "id": "aosp",
-    "startedAt": "2020-05-12",
-    "isCurrent": false,
-    "isArchived": false,
-    "displayName": "AOSP",
-    "description": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
-    "role": "Front End Developer & Quality Analyst",
-    "companyName": "Newton Vision Corporation",
-    "industry": "Enterprise Software & Consulting",
-    "tags": [
-      "Angular",
-      "TypeScript",
-      "Front-end Development",
-      "Quality Assurance",
-      "GitHub Project Management",
-      "SEO Optimization",
-      "Web Accessibility",
-      "Performance Optimization",
-      "ESLint",
-      "Prettier",
-      "Babel",
-      "Team Leadership"
-    ],
-    "challenge": {
-      "title": "Establishing quality standards and leading a development team to deliver an enterprise Angular platform that drives measurable business growth.",
-      "description": "Starting as a quality analyst, I identified inefficiencies in the development process and project management. The challenge was not just writing code, but creating a culture of excellence through proper GitHub workflows, automated testing, and peer review processes. Later tasked with leading the team, I needed to balance technical direction with team dynamics while delivering features that directly impacted business metrics—sales optimization and customer experience through accessibility and SEO."
-    },
-    "solution": {
-      "title": "Leading the AOSP platform development with Angular, growing sales by 5% through optimized customer experience and improved web accessibility.",
-      "description": "I started as a quality analyst, implementing rigorous GitHub project management and code quality standards that elevated the entire team's output. My dedication earned a promotion to senior developer, where I led the team in architecting the AOSP platform with Angular. The frontend was built with scalability and user experience as primary concerns. I championed SEO optimization and web accessibility improvements on the landing page, resulting in better customer reviews and a 5% sales increase. Through consistent application of code quality tools like ESLint and Prettier, I ensured the codebase remained clean and maintainable. The project demonstrated how technical excellence and quality-first processes directly drive business outcomes."
-    },
-    "images": [
-      {
-        "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "alt": "AOSP - Enterprise Business Transformation Platform"
-      }
-    ]
-  },
-  {
-    "id": "clothing-park",
-    "startedAt": "2020-10-21",
-    "isCurrent": false,
-    "isArchived": true,
-    "displayName": "Clothing Park",
-    "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
-    "role": "React Full Stack Developer",
-    "companyName": "Personal Project",
-    "industry": "E-commerce",
-    "tags": [
-      "React",
-      "Node.js",
-      "PostgreSQL",
-      "Stripe",
-      "Typescript",
-      "Redux",
-      "Redux Sagas",
-      "ESLint",
-      "Prettier",
-      "Babel",
-      "Sass"
-    ],
-    "challenge": {
-      "title": "Mastering advanced state management patterns while building a production-grade application without prior hands-on experience.",
-      "description": "Learning React fundamentals was just the beginning. The real challenge emerged when tackling Redux architecture, Redux Sagas for side effects, and integrating third-party services like Stripe for payment processing. Managing complex application state across multiple components, handling asynchronous operations, and maintaining code quality standards felt overwhelming. I needed a practical project to bridge theory and implementation."
-    },
-    "solution": {
-      "title": "Building a complete e-commerce platform from concept to deployment, using it as a learning laboratory for advanced React patterns and full-stack development.",
-      "description": "I created Clothing Park as a deliberate learning exercise. By implementing Redux for centralized state management and Redux Sagas for complex async workflows, I gained hands-on experience with industry-standard patterns. The full-stack development—React frontend, Node.js backend, PostgreSQL database, and Stripe integration—forced me to understand not just individual tools, but how they work together. Enforcing TypeScript, ESLint, and Prettier from the start ensured I built professional coding habits early. The result was a production-ready application that transformed theoretical knowledge into practical expertise."
-    },
-    "images": [
-      {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
-        "alt": "Clothing Park - Home Page"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
-        "alt": "Clothing Park - Shop Page"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
-        "alt": "Clothing Park - Checkout Page"
-      }
-    ],
-    "links": {
-      "github": "https://github.com/miguelbogota/clothing-park",
-      "website": "https://clothing-park.web.app"
-    }
-  },
-  {
-    "id": "crypto-june",
-    "startedAt": "2022-04-25",
-    "isCurrent": false,
-    "isArchived": false,
-    "displayName": "Crypto June",
-    "description": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
-    "role": "React Native Cross-Platform Developer",
-    "companyName": "Personal Project",
-    "industry": "Fintech & Cryptocurrency",
-    "tags": [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "Mobile Development",
-      "RNUILib",
-      "CoinGecko API",
-      "Real-time Data",
-      "Redux",
-      "Redux Toolkit",
-      "State Management",
-      "SWR",
-      "ESLint",
-      "Prettier",
-      "Babel",
-      "Cross-platform Development"
-    ],
-    "challenge": {
-      "title": "Engineering a performant cryptocurrency tracking app that delivers real-time price updates across iOS and Android while maintaining smooth UI performance.",
-      "description": "Building a cryptocurrency price tracker required solving multiple technical challenges simultaneously. The app needed to fetch real-time data from external APIs, display updates instantly without draining battery or bandwidth, and maintain a smooth, responsive interface across different device capabilities. As the sole developer, I also needed to master both iOS and Android deployment while ensuring the codebase remained maintainable for future enhancements."
-    },
-    "solution": {
-      "title": "Architecting a cross-platform mobile app using React Native and Expo to deliver native performance with shared code across iOS and Android platforms.",
-      "description": "I built Crypto June as a complete learning project in mobile development, leveraging React Native and Expo to maximize code reuse while delivering native performance on both iOS and Android. The app integrates with the CoinGecko API for real-time cryptocurrency data, using SWR for intelligent caching and efficient data fetching. Redux and Redux Toolkit manage complex application state around user portfolios and price alerts. The UI layer uses RNUILib for a polished, native-feeling experience with smooth animations. By enforcing code quality with TypeScript, ESLint, and Prettier throughout development, I ensured the codebase remained professional and maintainable. The result demonstrates the feasibility of building production-quality fintech applications with React Native."
-    },
-    "images": [
-      {
-        "src": "/project-images/crypto-june/01.png",
-        "alt": "Crypto June - Cryptocurrency Price Dashboard"
-      },
-      {
-        "src": "/project-images/crypto-june/02.gif",
-        "alt": "Crypto June - Real-time Price Updates Animation"
-      },
-      {
-        "src": "/project-images/crypto-june/03.png",
-        "alt": "Crypto June - Portfolio Management Screen"
-      }
-    ],
-    "links": {
-      "github": "https://github.com/miguelbogota/crypto-june"
-    }
-  },
-  {
-    "id": "galtex",
-    "startedAt": "2020-11-09",
-    "isCurrent": false,
-    "isArchived": false,
-    "displayName": "Galtex",
-    "description": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
-    "role": "Senior Developer & Quality Analyst",
-    "companyName": "Newton Vision Corporation",
-    "industry": "Enterprise Software",
-    "tags": [
-      "TypeScript",
-      "React",
-      "React Native",
-      "Cross-platform Development",
-      "Redux",
-      "Redux Sagas",
-      "Performance Optimization",
-      "Accessibility",
-      "Security",
-      "ESLint",
-      "Prettier",
-      "Babel",
-      "Team Leadership"
-    ],
-    "challenge": {
-      "title": "Modernizing a legacy order management system while leading a team to achieve measurable improvements in security, accessibility, and performance.",
-      "description": "The original order management system had become a bottleneck for operations. It lacked modern security standards, failed to meet accessibility requirements, and struggled under performance demands. As a senior developer and quality analyst, I faced the challenge of not just rebuilding the platform, but doing so while mentoring a team through a complete architectural overhaul. This required technical expertise, strategic thinking, and leadership to drive consensus and maintain quality standards throughout the transformation."
-    },
-    "solution": {
-      "title": "Leading the development of a modernized cross-platform order management system achieving 33% performance improvement and accessibility compliance.",
-      "description": "I led the Galtex modernization initiative, architecting a new solution built with TypeScript, React for web, and React Native for mobile—enabling employees to access order management from any device. I implemented Redux and Redux Sagas for predictable state management and complex async workflows. The team enforced strict code quality standards with ESLint and Prettier from day one. Through careful optimization and performance profiling, we achieved a 33% performance improvement while simultaneously implementing comprehensive accessibility features. The security-first approach included encrypted communications, role-based access controls, and audit logging. The result transformed Galtex from a legacy system into a modern, performant platform that enabled employees to work more efficiently while maintaining enterprise-grade security and accessibility standards."
-    },
-    "images": [
-      {
-        "src": "https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
-        "alt": "Galtex - Enterprise Order Management Platform"
-      }
-    ]
-  },
-  {
     "id": "mercadolibre-reputation",
     "startedAt": "2023-08-16",
     "isCurrent": true,
@@ -302,86 +76,44 @@
     ]
   },
   {
-    "id": "miguelbogotadev-api",
-    "startedAt": "2022-05-03",
-    "isCurrent": true,
-    "isArchived": false,
-    "displayName": "Miguel Bogota Dev API",
-    "description": "Miguel Bogota Dev API is a centralized data repository built with Next.js that serves as a single source of truth for portfolio, project, and experience data. The API provides structured endpoints for retrieving comprehensive information about professional work, enabling seamless integration across multiple portfolio frontends and applications.",
-    "role": "Next.js Full Stack Developer",
-    "companyName": "Personal Project",
-    "industry": "Developer Infrastructure",
-    "tags": [
-      "Next.js",
-      "React",
-      "Node.js",
-      "API Design",
-      "RESTful Architecture",
-      "Data Management",
-      "TypeScript",
-      "Backend Infrastructure",
-      "Portfolio Management",
-      "ESLint",
-      "Prettier",
-      "Vercel"
-    ],
-    "challenge": {
-      "title": "Creating a unified data architecture that centralizes portfolio information for seamless integration across multiple frontend applications.",
-      "description": "Managing portfolio data across multiple sites and applications creates inconsistencies and maintenance headaches. The challenge was designing and implementing a robust backend infrastructure that could serve as a single source of truth—providing consistent, well-structured data through clean APIs. This required thoughtful data modeling, caching strategies, and an architecture flexible enough to support current and future portfolio applications."
-    },
-    "solution": {
-      "title": "Building a Next.js-backed API infrastructure that centralizes all portfolio and experience data in a unified, maintainable repository.",
-      "description": "I architected Miguel Bogota Dev API as a Next.js application combining the benefits of server-side rendering with powerful API capabilities. The API exposes clean, well-documented endpoints that deliver structured data about projects, work experience, and portfolio information. By establishing a single source of truth, any portfolio frontend—whether v1, v2, or future versions—can reliably consume the same data without duplication or synchronization issues. The codebase is maintained with TypeScript, ESLint, and Prettier ensuring production-grade quality. Deployed on Vercel for reliable, fast global distribution. This infrastructure project demonstrates architectural thinking and the importance of building scalable backend systems that enable frontend flexibility."
-    },
-    "images": [
-      {
-        "src": "/project-images/miguelbogotadev-api/01.png",
-        "alt": "Miguel Bogota Dev API - Data Infrastructure"
-      }
-    ],
-    "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-api",
-      "website": "https://miguelbogotadev-api.vercel.app"
-    }
-  },
-  {
-    "id": "miguelbogotadev-v01",
-    "startedAt": "2021-01-11",
+    "id": "miguelbogotadev-v03",
+    "startedAt": "2026-01-01",
     "isCurrent": false,
-    "isArchived": true,
-    "displayName": "Miguel Bogota Dev V1",
-    "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
+    "isArchived": false,
+    "displayName": "Miguel Bogota Dev V3",
+    "description": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Portfolio",
     "tags": [
-      "Angular",
+      "TanStack Start",
+      "React",
       "TypeScript",
-      "Firebase",
-      "Angular Animation",
-      "State Management",
-      "Minimalist Design",
-      "Responsive Design",
-      "Web Development",
-      "Portfolio Website"
+      "Firebase App Hosting",
+      "Fullstack Framework",
+      "Server Functions",
+      "API Integration",
+      "Isomorphic JavaScript",
+      "Modern Web Architecture",
+      "Performance"
     ],
     "challenge": {
-      "title": "Designing a minimalist portfolio that demonstrates technical skills through elegant interactions and clean visual presentation.",
-      "description": "Building a personal portfolio meant more than displaying projects—it needed to be a testament to design sensibility and technical capability. The challenge was creating an interface so minimal and purposeful that every visual element served a function. Angular animations needed to feel natural, state management had to be invisible to the user, and the overall experience had to feel modern and professional despite the constraints of Firebase's basic backend structure."
+      "title": "Exploring next-generation fullstack frameworks that blur the lines between client and server while maintaining a unified development experience.",
+      "description": "As the web platform evolved, new frameworks emerged offering unprecedented developer experience through better abstraction of client-server boundaries. The challenge was evaluating TanStack Start as a next-generation fullstack framework—understanding its server function capabilities, file-based routing, and how to effectively structure a portfolio application using these new paradigms. This required rethinking architectural patterns and embracing a more integrated approach to fullstack development."
     },
     "solution": {
-      "title": "Creating a minimalist portfolio platform with Angular animations and state management to deliver a polished, modern portfolio experience.",
-      "description": "I built the first version of my portfolio with Angular as the frontend framework, leveraging its powerful animation system to craft smooth, purposeful transitions that enhance rather than distract. Firebase provided backend infrastructure for content management and hosting. Using Angular's built-in state management capabilities, I ensured the application remained responsive and performant. The design philosophy was ruthless minimalism—every visual element was intentional, every interaction meaningful. The result is a portfolio that showcases not just the work itself, but the attention to detail and technical craftsmanship behind its construction. This v1 served as a learning foundation for building professional portfolio presence online."
+      "title": "Architecting a modern portfolio with TanStack Start and Firebase App Hosting, demonstrating cutting-edge fullstack development patterns.",
+      "description": "V3 represents the current evolution of the portfolio, built with TanStack Start to explore modern fullstack framework capabilities. Server functions handle backend logic seamlessly, enabling isomorphic code that runs on both client and server as appropriate. The application continues to integrate with the Miguel Bogota Dev API for data management, maintaining the separation of concerns established in v2. Firebase App Hosting provides a modern deployment platform optimized for fullstack applications. TypeScript throughout ensures type safety across the entire application. This version serves as both a functional portfolio and an experimental ground for evaluating emerging web technologies. The progression from v1 to v3 demonstrates the rapid evolution of web development tools and the importance of staying current with modern practices."
     },
     "images": [
       {
-        "src": "/project-images/miguelbogotadev-v1/01.png",
-        "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
+        "src": "/project-images/miguelbogotadev-v3/01.png",
+        "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
       }
     ],
     "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
-      "website": "https://miguelbogotadev.web.app"
+      "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
+      "website": "https://miguelbogotadev-v3.web.app"
     }
   },
   {
@@ -426,44 +158,269 @@
     }
   },
   {
-    "id": "miguelbogotadev-v03",
-    "startedAt": "2026-01-01",
+    "id": "crypto-june",
+    "startedAt": "2022-04-25",
     "isCurrent": false,
     "isArchived": false,
-    "displayName": "Miguel Bogota Dev V3",
-    "description": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
+    "displayName": "Crypto June",
+    "description": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
+    "role": "React Native Cross-Platform Developer",
+    "companyName": "Personal Project",
+    "industry": "Fintech & Cryptocurrency",
+    "tags": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Mobile Development",
+      "RNUILib",
+      "CoinGecko API",
+      "Real-time Data",
+      "Redux",
+      "Redux Toolkit",
+      "State Management",
+      "SWR",
+      "ESLint",
+      "Prettier",
+      "Babel",
+      "Cross-platform Development"
+    ],
+    "challenge": {
+      "title": "Engineering a performant cryptocurrency tracking app that delivers real-time price updates across iOS and Android while maintaining smooth UI performance.",
+      "description": "Building a cryptocurrency price tracker required solving multiple technical challenges simultaneously. The app needed to fetch real-time data from external APIs, display updates instantly without draining battery or bandwidth, and maintain a smooth, responsive interface across different device capabilities. As the sole developer, I also needed to master both iOS and Android deployment while ensuring the codebase remained maintainable for future enhancements."
+    },
+    "solution": {
+      "title": "Architecting a cross-platform mobile app using React Native and Expo to deliver native performance with shared code across iOS and Android platforms.",
+      "description": "I built Crypto June as a complete learning project in mobile development, leveraging React Native and Expo to maximize code reuse while delivering native performance on both iOS and Android. The app integrates with the CoinGecko API for real-time cryptocurrency data, using SWR for intelligent caching and efficient data fetching. Redux and Redux Toolkit manage complex application state around user portfolios and price alerts. The UI layer uses RNUILib for a polished, native-feeling experience with smooth animations. By enforcing code quality with TypeScript, ESLint, and Prettier throughout development, I ensured the codebase remained professional and maintainable. The result demonstrates the feasibility of building production-quality fintech applications with React Native."
+    },
+    "images": [
+      {
+        "src": "/project-images/crypto-june/01.png",
+        "alt": "Crypto June - Cryptocurrency Price Dashboard"
+      },
+      {
+        "src": "/project-images/crypto-june/02.gif",
+        "alt": "Crypto June - Real-time Price Updates Animation"
+      },
+      {
+        "src": "/project-images/crypto-june/03.png",
+        "alt": "Crypto June - Portfolio Management Screen"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/miguelbogota/crypto-june"
+    }
+  },
+  {
+    "id": "aosp-dealers",
+    "startedAt": "2022-03-21",
+    "isCurrent": false,
+    "isArchived": false,
+    "displayName": "AOSP Dealers",
+    "description": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
+    "role": "Front End Angular Developer",
+    "companyName": "Newton Vision Corporation",
+    "industry": "Enterprise Software & Consulting",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Reactive Forms",
+      "Angular Reactive Forms",
+      "Form Management",
+      "Data-driven UI",
+      "Performance Optimization",
+      "Dealer Operations",
+      "Workflow Optimization",
+      "ESLint",
+      "Prettier",
+      "Babel",
+      "Greenfield Development"
+    ],
+    "challenge": {
+      "title": "Building a modern dealer operations platform from scratch that improves workflow efficiency and reduces operational friction.",
+      "description": "Dealers were operating with outdated systems that introduced friction into their daily workflows. The challenge was architecting a brand new platform that not only modernized the technology stack, but fundamentally improved operational efficiency. This meant understanding dealer workflows deeply, anticipating pain points, and designing a UI that made complex operations intuitive. Performance was critical—dealers needed instant feedback and responsiveness."
+    },
+    "solution": {
+      "title": "Architecting a greenfield dealer platform with Angular Reactive Forms, achieving 10% performance improvement in AmeriCasa operations.",
+      "description": "I led the frontend development of AOSP Dealers as a complete greenfield project. By starting fresh, I had the opportunity to implement modern Angular patterns from day one, including sophisticated form management with Angular Reactive Forms for handling complex dealer workflows. The data-driven UI ensured information was presented contextually and intuitively. Through careful performance optimization, the platform delivered 10% efficiency gains for AmeriCasa dealers—measurable time savings in their daily operations. The codebase was built on solid foundations with TypeScript, ESLint, and Prettier enforcing quality throughout. The result is a platform that dealers actively prefer using, a testament to thoughtful engineering and user-focused development."
+    },
+    "images": [
+      {
+        "src": "/project-images/aosp-dealers/01.png",
+        "alt": "AOSP Dealers - Dealer Operations Dashboard"
+      },
+      {
+        "src": "/project-images/aosp-dealers/02.png",
+        "alt": "AOSP Dealers - Workflow Management Interface"
+      }
+    ]
+  },
+  {
+    "id": "on-watch-us",
+    "startedAt": "2021-03-15",
+    "isCurrent": false,
+    "isArchived": false,
+    "displayName": "On Watch Us",
+    "description": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
+    "role": "Node.js & Flutter Senior Developer",
+    "companyName": "On Watch Us",
+    "industry": "Maritime & Logistics",
+    "tags": [
+      "Flutter",
+      "Node.js",
+      "Dart",
+      "Backend Development",
+      "Mobile Development",
+      "Conduit Framework",
+      "Object-Oriented Programming",
+      "Real-time Communication",
+      "Safety Critical Systems"
+    ],
+    "challenge": {
+      "title": "Building a safety-critical maritime application that seamlessly integrates mobile functionality with a robust backend while prioritizing real-time communication and reliability.",
+      "description": "Maritime operations demand precision, speed, and reliability that cannot tolerate failure. The challenge was architecting a system where pilots could communicate vessel guidance information with port authorities instantaneously, across diverse devices and network conditions. This required not just elegant code, but systems thinking—understanding how cross-platform mobile applications and backend services must integrate to support mission-critical operations where mistakes can have serious consequences."
+    },
+    "solution": {
+      "title": "Leading the development of a comprehensive maritime coordination platform using Flutter for cross-platform mobile delivery and Node.js, Conduit for a scalable backend.",
+      "description": "As lead senior developer, I architected both the mobile and backend layers of On Watch Us. Flutter provided the foundation for delivering a responsive, native-feeling mobile experience across platforms—critical for pilots working in dynamic port environments. On the backend, I implemented a Node.js service using the Conduit framework, creating a scalable, maintainable infrastructure designed for real-time data exchange. By applying object-oriented programming principles, I ensured the codebase remained maintainable and extensible. The result was a platform that successfully simplified port communication workflows in Galveston, enabling safer and faster vessel guidance operations."
+    },
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "alt": "On Watch Us - Maritime Navigation Platform"
+      }
+    ],
+    "links": {
+      "website": "https://onwatchus.com"
+    }
+  },
+  {
+    "id": "miguelbogotadev-v01",
+    "startedAt": "2021-01-11",
+    "isCurrent": false,
+    "isArchived": true,
+    "displayName": "Miguel Bogota Dev V1",
+    "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Portfolio",
     "tags": [
-      "TanStack Start",
-      "React",
+      "Angular",
       "TypeScript",
-      "Firebase App Hosting",
-      "Fullstack Framework",
-      "Server Functions",
-      "API Integration",
-      "Isomorphic JavaScript",
-      "Modern Web Architecture",
-      "Performance"
+      "Firebase",
+      "Angular Animation",
+      "State Management",
+      "Minimalist Design",
+      "Responsive Design",
+      "Web Development",
+      "Portfolio Website"
     ],
     "challenge": {
-      "title": "Exploring next-generation fullstack frameworks that blur the lines between client and server while maintaining a unified development experience.",
-      "description": "As the web platform evolved, new frameworks emerged offering unprecedented developer experience through better abstraction of client-server boundaries. The challenge was evaluating TanStack Start as a next-generation fullstack framework—understanding its server function capabilities, file-based routing, and how to effectively structure a portfolio application using these new paradigms. This required rethinking architectural patterns and embracing a more integrated approach to fullstack development."
+      "title": "Designing a minimalist portfolio that demonstrates technical skills through elegant interactions and clean visual presentation.",
+      "description": "Building a personal portfolio meant more than displaying projects—it needed to be a testament to design sensibility and technical capability. The challenge was creating an interface so minimal and purposeful that every visual element served a function. Angular animations needed to feel natural, state management had to be invisible to the user, and the overall experience had to feel modern and professional despite the constraints of Firebase's basic backend structure."
     },
     "solution": {
-      "title": "Architecting a modern portfolio with TanStack Start and Firebase App Hosting, demonstrating cutting-edge fullstack development patterns.",
-      "description": "V3 represents the current evolution of the portfolio, built with TanStack Start to explore modern fullstack framework capabilities. Server functions handle backend logic seamlessly, enabling isomorphic code that runs on both client and server as appropriate. The application continues to integrate with the Miguel Bogota Dev API for data management, maintaining the separation of concerns established in v2. Firebase App Hosting provides a modern deployment platform optimized for fullstack applications. TypeScript throughout ensures type safety across the entire application. This version serves as both a functional portfolio and an experimental ground for evaluating emerging web technologies. The progression from v1 to v3 demonstrates the rapid evolution of web development tools and the importance of staying current with modern practices."
+      "title": "Creating a minimalist portfolio platform with Angular animations and state management to deliver a polished, modern portfolio experience.",
+      "description": "I built the first version of my portfolio with Angular as the frontend framework, leveraging its powerful animation system to craft smooth, purposeful transitions that enhance rather than distract. Firebase provided backend infrastructure for content management and hosting. Using Angular's built-in state management capabilities, I ensured the application remained responsive and performant. The design philosophy was ruthless minimalism—every visual element was intentional, every interaction meaningful. The result is a portfolio that showcases not just the work itself, but the attention to detail and technical craftsmanship behind its construction. This v1 served as a learning foundation for building professional portfolio presence online."
     },
     "images": [
       {
-        "src": "/project-images/miguelbogotadev-v3/01.png",
-        "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
+        "src": "/project-images/miguelbogotadev-v1/01.png",
+        "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
       }
     ],
     "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
-      "website": "https://miguelbogotadev-v3.web.app"
+      "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
+      "website": "https://miguelbogotadev.web.app"
+    }
+  },
+  {
+    "id": "galtex",
+    "startedAt": "2020-11-09",
+    "isCurrent": false,
+    "isArchived": false,
+    "displayName": "Galtex",
+    "description": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
+    "role": "Senior Developer & Quality Analyst",
+    "companyName": "Newton Vision Corporation",
+    "industry": "Enterprise Software",
+    "tags": [
+      "TypeScript",
+      "React",
+      "React Native",
+      "Cross-platform Development",
+      "Redux",
+      "Redux Sagas",
+      "Performance Optimization",
+      "Accessibility",
+      "Security",
+      "ESLint",
+      "Prettier",
+      "Babel",
+      "Team Leadership"
+    ],
+    "challenge": {
+      "title": "Modernizing a legacy order management system while leading a team to achieve measurable improvements in security, accessibility, and performance.",
+      "description": "The original order management system had become a bottleneck for operations. It lacked modern security standards, failed to meet accessibility requirements, and struggled under performance demands. As a senior developer and quality analyst, I faced the challenge of not just rebuilding the platform, but doing so while mentoring a team through a complete architectural overhaul. This required technical expertise, strategic thinking, and leadership to drive consensus and maintain quality standards throughout the transformation."
+    },
+    "solution": {
+      "title": "Leading the development of a modernized cross-platform order management system achieving 33% performance improvement and accessibility compliance.",
+      "description": "I led the Galtex modernization initiative, architecting a new solution built with TypeScript, React for web, and React Native for mobile—enabling employees to access order management from any device. I implemented Redux and Redux Sagas for predictable state management and complex async workflows. The team enforced strict code quality standards with ESLint and Prettier from day one. Through careful optimization and performance profiling, we achieved a 33% performance improvement while simultaneously implementing comprehensive accessibility features. The security-first approach included encrypted communications, role-based access controls, and audit logging. The result transformed Galtex from a legacy system into a modern, performant platform that enabled employees to work more efficiently while maintaining enterprise-grade security and accessibility standards."
+    },
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+        "alt": "Galtex - Enterprise Order Management Platform"
+      }
+    ]
+  },
+  {
+    "id": "clothing-park",
+    "startedAt": "2020-10-21",
+    "isCurrent": false,
+    "isArchived": true,
+    "displayName": "Clothing Park",
+    "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
+    "role": "React Full Stack Developer",
+    "companyName": "Personal Project",
+    "industry": "E-commerce",
+    "tags": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe",
+      "Typescript",
+      "Redux",
+      "Redux Sagas",
+      "ESLint",
+      "Prettier",
+      "Babel",
+      "Sass"
+    ],
+    "challenge": {
+      "title": "Mastering advanced state management patterns while building a production-grade application without prior hands-on experience.",
+      "description": "Learning React fundamentals was just the beginning. The real challenge emerged when tackling Redux architecture, Redux Sagas for side effects, and integrating third-party services like Stripe for payment processing. Managing complex application state across multiple components, handling asynchronous operations, and maintaining code quality standards felt overwhelming. I needed a practical project to bridge theory and implementation."
+    },
+    "solution": {
+      "title": "Building a complete e-commerce platform from concept to deployment, using it as a learning laboratory for advanced React patterns and full-stack development.",
+      "description": "I created Clothing Park as a deliberate learning exercise. By implementing Redux for centralized state management and Redux Sagas for complex async workflows, I gained hands-on experience with industry-standard patterns. The full-stack development—React frontend, Node.js backend, PostgreSQL database, and Stripe integration—forced me to understand not just individual tools, but how they work together. Enforcing TypeScript, ESLint, and Prettier from the start ensured I built professional coding habits early. The result was a production-ready application that transformed theoretical knowledge into practical expertise."
+    },
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
+        "alt": "Clothing Park - Home Page"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
+        "alt": "Clothing Park - Shop Page"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
+        "alt": "Clothing Park - Checkout Page"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/miguelbogota/clothing-park",
+      "website": "https://clothing-park.web.app"
     }
   },
   {
@@ -504,45 +461,6 @@
     "links": {
       "github": "https://github.com/miguelbogota/nvc-movies",
       "website": "https://nvc-moviesm.web.app"
-    }
-  },
-  {
-    "id": "on-watch-us",
-    "startedAt": "2021-03-15",
-    "isCurrent": false,
-    "isArchived": false,
-    "displayName": "On Watch Us",
-    "description": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
-    "role": "Node.js & Flutter Senior Developer",
-    "companyName": "On Watch Us",
-    "industry": "Maritime & Logistics",
-    "tags": [
-      "Flutter",
-      "Node.js",
-      "Dart",
-      "Backend Development",
-      "Mobile Development",
-      "Conduit Framework",
-      "Object-Oriented Programming",
-      "Real-time Communication",
-      "Safety Critical Systems"
-    ],
-    "challenge": {
-      "title": "Building a safety-critical maritime application that seamlessly integrates mobile functionality with a robust backend while prioritizing real-time communication and reliability.",
-      "description": "Maritime operations demand precision, speed, and reliability that cannot tolerate failure. The challenge was architecting a system where pilots could communicate vessel guidance information with port authorities instantaneously, across diverse devices and network conditions. This required not just elegant code, but systems thinking—understanding how cross-platform mobile applications and backend services must integrate to support mission-critical operations where mistakes can have serious consequences."
-    },
-    "solution": {
-      "title": "Leading the development of a comprehensive maritime coordination platform using Flutter for cross-platform mobile delivery and Node.js, Conduit for a scalable backend.",
-      "description": "As lead senior developer, I architected both the mobile and backend layers of On Watch Us. Flutter provided the foundation for delivering a responsive, native-feeling mobile experience across platforms—critical for pilots working in dynamic port environments. On the backend, I implemented a Node.js service using the Conduit framework, creating a scalable, maintainable infrastructure designed for real-time data exchange. By applying object-oriented programming principles, I ensured the codebase remained maintainable and extensible. The result was a platform that successfully simplified port communication workflows in Galveston, enabling safer and faster vessel guidance operations."
-    },
-    "images": [
-      {
-        "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "alt": "On Watch Us - Maritime Navigation Platform"
-      }
-    ],
-    "links": {
-      "website": "https://onwatchus.com"
     }
   },
   {
@@ -590,5 +508,44 @@
     "links": {
       "website": "TODO"
     }
+  },
+  {
+    "id": "aosp",
+    "startedAt": "2020-05-12",
+    "isCurrent": false,
+    "isArchived": false,
+    "displayName": "AOSP",
+    "description": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
+    "role": "Front End Developer & Quality Analyst",
+    "companyName": "Newton Vision Corporation",
+    "industry": "Enterprise Software & Consulting",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Front-end Development",
+      "Quality Assurance",
+      "GitHub Project Management",
+      "SEO Optimization",
+      "Web Accessibility",
+      "Performance Optimization",
+      "ESLint",
+      "Prettier",
+      "Babel",
+      "Team Leadership"
+    ],
+    "challenge": {
+      "title": "Establishing quality standards and leading a development team to deliver an enterprise Angular platform that drives measurable business growth.",
+      "description": "Starting as a quality analyst, I identified inefficiencies in the development process and project management. The challenge was not just writing code, but creating a culture of excellence through proper GitHub workflows, automated testing, and peer review processes. Later tasked with leading the team, I needed to balance technical direction with team dynamics while delivering features that directly impacted business metrics—sales optimization and customer experience through accessibility and SEO."
+    },
+    "solution": {
+      "title": "Leading the AOSP platform development with Angular, growing sales by 5% through optimized customer experience and improved web accessibility.",
+      "description": "I started as a quality analyst, implementing rigorous GitHub project management and code quality standards that elevated the entire team's output. My dedication earned a promotion to senior developer, where I led the team in architecting the AOSP platform with Angular. The frontend was built with scalability and user experience as primary concerns. I championed SEO optimization and web accessibility improvements on the landing page, resulting in better customer reviews and a 5% sales increase. Through consistent application of code quality tools like ESLint and Prettier, I ensured the codebase remained clean and maintainable. The project demonstrated how technical excellence and quality-first processes directly drive business outcomes."
+    },
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "alt": "AOSP - Enterprise Business Transformation Platform"
+      }
+    ]
   }
 ]
