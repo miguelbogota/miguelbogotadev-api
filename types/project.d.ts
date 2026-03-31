@@ -16,7 +16,7 @@ export interface Project {
   /** Project title. */
   displayName: string;
   /** Brief overview of what the project does. */
-  description: string;
+  summary: string;
   /** User's role or position in the project. */
   role: string;
   /** Organization or company associated with the project. */

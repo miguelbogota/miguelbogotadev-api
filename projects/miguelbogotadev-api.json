@@ -5,7 +5,7 @@
   "isCurrent": true,
   "isArchived": false,
   "displayName": "Miguel Bogota Dev API",
-  "description": "Miguel Bogota Dev API is a centralized data repository built with Next.js that serves as a single source of truth for portfolio, project, and experience data. The API provides structured endpoints for retrieving comprehensive information about professional work, enabling seamless integration across multiple portfolio frontends and applications.",
+  "summary" :"Miguel Bogota Dev API is a centralized data repository built with Next.js that serves as a single source of truth for portfolio, project, and experience data. The API provides structured endpoints for retrieving comprehensive information about professional work, enabling seamless integration across multiple portfolio frontends and applications.",
   "role": "Next.js Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "Developer Infrastructure",

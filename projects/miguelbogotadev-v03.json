@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": false,
   "displayName": "Miguel Bogota Dev V3",
-  "description": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
+  "summary" :"Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "Portfolio",

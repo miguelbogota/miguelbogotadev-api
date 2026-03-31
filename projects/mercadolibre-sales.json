@@ -6,7 +6,7 @@
   "isArchived": false,
   "aggregate": true,
   "displayName": "Mercado Libre (Sales)",
-  "description": "The Mercado Libre Sales Platform Integration project unifies the Mercado Pago and Mercado Libre ecosystems into a single, cohesive seller experience. Sellers can now view all transaction data, sales metrics, and payment information across both platforms in one consolidated dashboard.",
+  "summary" :"The Mercado Libre Sales Platform Integration project unifies the Mercado Pago and Mercado Libre ecosystems into a single, cohesive seller experience. Sellers can now view all transaction data, sales metrics, and payment information across both platforms in one consolidated dashboard.",
   "role": "Senior Software Engineer",
   "companyName": "Mercado Libre",
   "industry": "E-commerce & Fintech",
