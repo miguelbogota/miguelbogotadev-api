@@ -32,7 +32,11 @@
   },
   "images": [
     {
-      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/03.gif",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/01.png",
+      "alt": "Mercado Libre UI Migration - Modern Mobile Experience"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/02.gif",
       "alt": "Mercado Libre UI Migration - Modern Web Architecture"
     }
   ]

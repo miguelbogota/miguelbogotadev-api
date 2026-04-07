@@ -32,8 +32,12 @@
   },
   "images": [
     {
-      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/03.gif",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/01.png",
       "alt": "Mercado Libre Sales - Unified Seller Dashboard"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/02.gif",
+      "alt": "Mercado Libre Sales - Unified Seller Experience"
     }
   ]
 }

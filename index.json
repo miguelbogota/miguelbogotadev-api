@@ -40,7 +40,7 @@
         "alt": "Mercado Libre Reputation - Automated Trust Workflows"
       },
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/03.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/03.gif",
         "alt": "Mercado Libre Reputation - Global Trust Standards"
       },
       {
@@ -48,8 +48,12 @@
         "alt": "Mercado Libre Reputation - Data-Driven Insights"
       },
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/05.gif",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/05.png",
         "alt": "Mercado Libre Reputation - Real-Time Monitoring"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/06.gif",
+        "alt": "Mercado Libre Reputation - Mobile Optimization"
       }
     ]
   },
@@ -86,7 +90,11 @@
     },
     "images": [
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/03.gif",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/01.png",
+        "alt": "Mercado Libre UI Migration - Modern Mobile Experience"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/02.gif",
         "alt": "Mercado Libre UI Migration - Modern Web Architecture"
       }
     ]
@@ -124,8 +132,12 @@
     },
     "images": [
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/03.gif",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/01.png",
         "alt": "Mercado Libre Sales - Unified Seller Dashboard"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/02.gif",
+        "alt": "Mercado Libre Sales - Unified Seller Experience"
       }
     ]
   },
