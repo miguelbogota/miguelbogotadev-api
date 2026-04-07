@@ -33,7 +33,7 @@
   "profile": {
     "overline": "Hi, I'm Miguel Bogota",
     "image": {
-      "url": "/profile.png",
+      "url": "https://miguelbogota.github.io/miguelbogotadev-api/assets/profile.png",
       "alt": "Miguel Bogota's profile picture"
     },
     "title": "Senior Software Engineer\nBuilding AI-Enhanced Systems\nAnd Product Design",

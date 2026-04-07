@@ -32,8 +32,24 @@
   },
   "images": [
     {
-      "src": "/project-images/mercadolibre-reputation/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/01.png",
       "alt": "Mercado Libre Reputation - AI-powered Trust System"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/02.png",
+      "alt": "Mercado Libre Reputation - Automated Trust Workflows"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/03.png",
+      "alt": "Mercado Libre Reputation - Global Trust Standards"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/04.png",
+      "alt": "Mercado Libre Reputation - Data-Driven Insights"
+    },
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/05.gif",
+      "alt": "Mercado Libre Reputation - Real-Time Monitoring"
     }
   ]
 }
