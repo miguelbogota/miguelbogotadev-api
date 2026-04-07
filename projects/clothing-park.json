@@ -32,15 +32,15 @@
   },
   "images": [
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/01.png",
       "alt": "Clothing Park - Home Page"
     },
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/02.png",
       "alt": "Clothing Park - Shop Page"
     },
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/03.png",
       "alt": "Clothing Park - Checkout Page"
     }
   ],

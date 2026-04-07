@@ -36,15 +36,15 @@
   },
   "images": [
     {
-      "src": "/project-images/crypto-june/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/01.png",
       "alt": "Crypto June - Cryptocurrency Price Dashboard"
     },
     {
-      "src": "/project-images/crypto-june/02.gif",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/02.gif",
       "alt": "Crypto June - Real-time Price Updates Animation"
     },
     {
-      "src": "/project-images/crypto-june/03.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/03.png",
       "alt": "Crypto June - Portfolio Management Screen"
     }
   ],

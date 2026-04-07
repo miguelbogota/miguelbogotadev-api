@@ -33,7 +33,7 @@
   },
   "images": [
     {
-      "src": "/project-images/miguelbogotadev-api/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/01.png",
       "alt": "Miguel Bogota Dev API - Data Infrastructure"
     }
   ],

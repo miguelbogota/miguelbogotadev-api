@@ -34,11 +34,11 @@
   },
   "images": [
     {
-      "src": "/project-images/aosp-dealers/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/01.png",
       "alt": "AOSP Dealers - Dealer Operations Dashboard"
     },
     {
-      "src": "/project-images/aosp-dealers/02.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/02.png",
       "alt": "AOSP Dealers - Workflow Management Interface"
     }
   ]

@@ -30,7 +30,7 @@
   },
   "images": [
     {
-      "src": "/project-images/miguelbogotadev-v1/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v1/01.png",
       "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
     }
   ],

@@ -1,0 +1,39 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "mercadolibre-summary",
+  "startedAt": "2024-08-16",
+  "isCurrent": false,
+  "isArchived": false,
+  "aggregate": true,
+  "displayName": "Mercado Libre (Summary)",
+  "summary" :"Led the migration of Mercado Libre's legacy UI system to a modern, scalable architecture using contemporary web technologies. This migration improved user experience, development velocity, and system maintainability while ensuring business continuity and enhanced performance.",
+  "role": "Senior Software Engineer",
+  "companyName": "Mercado Libre",
+  "industry": "E-commerce & Fintech",
+  "tags": [
+    "UI Migration",
+    "Frontend Modernization",
+    "React",
+    "TypeScript",
+    "Modern Web Technologies",
+    "System Architecture",
+    "Performance Optimization",
+    "Developer Experience",
+    "Scalability",
+    "Business Continuity"
+  ],
+  "challenge": {
+    "title": "Migrating a complex legacy UI system to modern technologies while maintaining business continuity and improving user experience.",
+    "description": "Mercado Libre's existing UI system was built on outdated technologies, making it difficult to maintain, scale, and develop new features. The system suffered from performance issues, poor developer experience, and technical debt that slowed down innovation. The challenge was to migrate to a modern tech stack without disrupting ongoing business operations, ensure seamless user experience during transition, and establish a foundation for future growth. This required careful planning, incremental migration strategies, and close coordination with multiple teams to ensure zero downtime and maintain feature parity."
+  },
+  "solution": {
+    "title": "Architected and executed a comprehensive UI migration to modern web technologies, significantly improving performance, developer experience, and system maintainability.",
+    "description": "I led the technical planning and execution of migrating Mercado Libre's legacy UI system to a modern technology stack. We designed an incremental migration strategy that allowed us to transition components gradually while maintaining full system functionality. I made key architectural decisions including the adoption of React with TypeScript for type safety, implementation of modern build tools and development workflows, and establishment of new coding standards and best practices. The migration involved creating reusable component libraries, implementing state management solutions, and optimizing performance through code splitting and lazy loading. We established comprehensive testing strategies to ensure feature parity and created detailed documentation to help teams adapt to the new system. The results were transformative: dramatically improved page load speeds, enhanced developer productivity with better tooling and debugging capabilities, reduced technical debt, and established a scalable foundation for future feature development. The new system now supports rapid iteration while maintaining the stability and reliability expected by millions of users."
+  },
+  "images": [
+    {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-ui-migration/01.png",
+      "alt": "Mercado Libre UI Migration - Modern Web Architecture"
+    }
+  ]
+}
