@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": true,
   "displayName": "Miguel Bogota Dev V2",
-  "summary" :"Miguel Bogota Dev V2 is the second iteration of the personal portfolio, built with Next.js for improved performance and server-side rendering capabilities. The portfolio integrates with the Miguel Bogota Dev API to fetch project and experience data, creating a dynamic, data-driven experience with modern fullstack architecture.",
+  "summary": "Miguel Bogota Dev V2 is the second iteration of the personal portfolio, built with Next.js for improved performance and server-side rendering capabilities. The portfolio integrates with the Miguel Bogota Dev API to fetch project and experience data, creating a dynamic, data-driven experience with modern fullstack architecture.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "Portfolio",
@@ -35,8 +35,16 @@
       "alt": "Miguel Bogota Dev V2 - Modern Portfolio Interface"
     }
   ],
-  "links": {
-    "github": "https://github.com/miguelbogota/miguelbogotadev-v2",
-    "website": "https://miguelbogotadev-v2.web.app"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/miguelbogotadev-v2"
+    },
+    {
+      "label": "Website",
+      "icon": "bx bx-globe",
+      "url": "https://miguelbogotadev-v2.web.app"
+    }
+  ]
 }

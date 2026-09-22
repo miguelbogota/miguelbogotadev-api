@@ -10,12 +10,7 @@
   "role": "Java / Angular Developer",
   "companyName": "Personal Project",
   "industry": "Developer Tools",
-  "tags": [
-    "Java",
-    "Angular",
-    "TypeScript",
-    "Maven"
-  ],
+  "tags": ["Java", "Angular", "TypeScript", "Maven"],
   "challenge": {
     "title": "Helping users understand template changes without opening every working file.",
     "description": "Reviewing template updates can be slow when each engagement takes significant time to open. The exercise explores how to identify pending versions and explain changes before asking a user to make a decision."
@@ -25,7 +20,11 @@
     "description": "I built Java logic for accumulated version checks and readable diff summaries alongside an Angular review screen with fixture data and Apply/Decline interactions. The default branch contains separate frontend and backend excerpts; the architecture documents a proposed metadata index, while an alternative branch explores an integrated implementation."
   },
   "images": [],
-  "links": {
-    "github": "https://github.com/miguelbogota/freshprint"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/freshprint"
+    }
+  ]
 }

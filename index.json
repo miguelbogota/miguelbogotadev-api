@@ -167,9 +167,13 @@
       "description": "I built Java logic for accumulated version checks and readable diff summaries alongside an Angular review screen with fixture data and Apply/Decline interactions. The default branch contains separate frontend and backend excerpts; the architecture documents a proposed metadata index, while an alternative branch explores an integrated implementation."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/freshprint"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/freshprint"
+      }
+    ]
   },
   {
     "id": "signal-polymarket-challenge",
@@ -200,10 +204,18 @@
       "description": "I built a Next.js application with searchable and trending markets, detail pages, and a demo portfolio. Separate services handle Gamma-shaped market data, OpenRouter streaming, short-lived recommendation caching, and simulated placements. Local market fixtures provide a fallback, while demo authentication and in-memory positions keep the prototype's scope explicit."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/signal-polymarket-challenge",
-      "website": "https://signal-polymarket-challenge.vercel.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/signal-polymarket-challenge"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://signal-polymarket-challenge.vercel.app"
+      }
+    ]
   },
   {
     "id": "line53-platform",
@@ -236,9 +248,13 @@
       "description": "I organized the platform as a Turborepo monorepo with reusable authentication and configuration packages. The product service uses Express and Prisma with PostgreSQL, while the order service uses Fastify and MongoDB. Shared Better Auth integration and role permissions provide a common access-control foundation across the services."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/line53-platform"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/line53-platform"
+      }
+    ]
   },
   {
     "id": "brownie-n-friends",
@@ -268,10 +284,18 @@
       "description": "I built a React and TypeScript interface around reusable cards and swipe interactions, with separate prompt collections for challenges, games, rules, and secret missions. Local storage saves the player count and current player so a session can resume, while colocated Vitest and Testing Library tests cover interface behavior."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/brownie-n-friends",
-      "website": "https://brownie-n-friends.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/brownie-n-friends"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://brownie-n-friends.web.app"
+      }
+    ]
   },
   {
     "id": "girlfriend-as-a-service",
@@ -299,10 +323,18 @@
       "description": "I built a React and Vite app that reads the recipient name, WhatsApp number, and language from query parameters. It supports English, Spanish, Italian, and French with an English fallback, includes GIF reactions for the No interaction, and is configured for Firebase Hosting."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/girlfriend-as-a-service",
-      "website": "https://girlfriend-as-a-service.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/girlfriend-as-a-service"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://girlfriend-as-a-service.web.app"
+      }
+    ]
   },
   {
     "id": "meow-clothing-studio",
@@ -333,10 +365,18 @@
       "description": "I built marketplace and checkout applications with Next.js and TypeScript, supported by shared component and cart packages. The cart persists in local storage and uses storage events and custom events to update the interface across application boundaries and tabs. Product filtering, detail pages, quantity controls, and checkout forms complete the shopping flow."
     },
     "images": [],
-    "links": {
-      "github": "https://github.com/miguelbogota/meow-clothing-studio",
-      "website": "https://meow-clothing-studio-marketplace.vercel.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/meow-clothing-studio"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://meow-clothing-studio-marketplace.vercel.app"
+      }
+    ]
   },
   {
     "id": "miguelbogotadev-v03",
@@ -374,10 +414,18 @@
         "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
-      "website": "https://miguelbogotadev-v03.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/miguelbogotadev-v3"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://miguelbogotadev-v03--miguelbogotadev.us-east4.hosted.app"
+      }
+    ]
   },
   {
     "id": "miguelbogotadev-v02",
@@ -415,10 +463,18 @@
         "alt": "Miguel Bogota Dev V2 - Modern Portfolio Interface"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-v2",
-      "website": "https://miguelbogotadev-v2.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/miguelbogotadev-v2"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://miguelbogotadev-v2.web.app"
+      }
+    ]
   },
   {
     "id": "crypto-june",
@@ -469,9 +525,13 @@
         "alt": "Crypto June - Portfolio Management Screen"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/crypto-june"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/crypto-june"
+      }
+    ]
   },
   {
     "id": "aosp-dealers",
@@ -588,10 +648,18 @@
         "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
-      "website": "https://miguelbogotadev-v01.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/miguelbogotadev-v1"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://miguelbogotadev-v01.web.app"
+      }
+    ]
   },
   {
     "id": "galtex",
@@ -678,10 +746,18 @@
         "alt": "Clothing Park - Checkout Page"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/clothing-park",
-      "website": "https://clothing-park.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/clothing-park"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://clothing-park.web.app"
+      }
+    ]
   },
   {
     "id": "nvc-movies",
@@ -718,10 +794,18 @@
         "alt": "NVC Movies - Movie Discovery Platform"
       }
     ],
-    "links": {
-      "github": "https://github.com/miguelbogota/nvc-movies",
-      "website": "https://nvc-moviesm.web.app"
-    }
+    "links": [
+      {
+        "label": "GitHub repository",
+        "icon": "bxl bx-github",
+        "url": "https://github.com/miguelbogota/nvc-movies"
+      },
+      {
+        "label": "Website",
+        "icon": "bx bx-globe",
+        "url": "https://nvc-moviesm.web.app"
+      }
+    ]
   },
   {
     "id": "rey-writer",

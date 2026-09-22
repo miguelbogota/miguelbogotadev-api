@@ -118,7 +118,7 @@ type Content = {
       /** Icon class name for the social platform. */
       icon: string;
       /** URL to the social media profile or contact method. */
-      link: string;
+      url: string;
     }[];
   };
 

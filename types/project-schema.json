@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "project.schema.json",
   "title": "Project",
-  "summary" :"Represents a portfolio project with comprehensive details about its scope, implementation, and resources.",
+  "summary": "Represents a portfolio project with comprehensive details about its scope, implementation, and resources.",
   "type": "object",
   "required": [
     "id",
@@ -120,18 +120,26 @@
       "description": "Project showcase images."
     },
     "links": {
-      "type": "object",
-      "properties": {
-        "github": {
-          "type": "string",
-          "format": "uri",
-          "description": "GitHub repository URL."
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "icon", "url"],
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "Display text and accessible name for the link."
+          },
+          "icon": {
+            "type": "string",
+            "description": "Boxicons class names for the external resource."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the external resource."
+          }
         },
-        "website": {
-          "type": "string",
-          "format": "uri",
-          "description": "Live project or website URL."
-        }
+        "additionalProperties": false
       },
       "description": "External resources related to the project."
     }

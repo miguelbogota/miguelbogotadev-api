@@ -28,8 +28,16 @@
     "description": "I built marketplace and checkout applications with Next.js and TypeScript, supported by shared component and cart packages. The cart persists in local storage and uses storage events and custom events to update the interface across application boundaries and tabs. Product filtering, detail pages, quantity controls, and checkout forms complete the shopping flow."
   },
   "images": [],
-  "links": {
-    "github": "https://github.com/miguelbogota/meow-clothing-studio",
-    "website": "https://meow-clothing-studio-marketplace.vercel.app"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/meow-clothing-studio"
+    },
+    {
+      "label": "Website",
+      "icon": "bx bx-globe",
+      "url": "https://meow-clothing-studio-marketplace.vercel.app"
+    }
+  ]
 }

@@ -28,8 +28,16 @@
     "description": "I built a Next.js application with searchable and trending markets, detail pages, and a demo portfolio. Separate services handle Gamma-shaped market data, OpenRouter streaming, short-lived recommendation caching, and simulated placements. Local market fixtures provide a fallback, while demo authentication and in-memory positions keep the prototype's scope explicit."
   },
   "images": [],
-  "links": {
-    "github": "https://github.com/miguelbogota/signal-polymarket-challenge",
-    "website": "https://signal-polymarket-challenge.vercel.app"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/signal-polymarket-challenge"
+    },
+    {
+      "label": "Website",
+      "icon": "bx bx-globe",
+      "url": "https://signal-polymarket-challenge.vercel.app"
+    }
+  ]
 }

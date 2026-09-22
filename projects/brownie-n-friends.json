@@ -10,14 +10,7 @@
   "role": "Frontend Developer",
   "companyName": "Personal Project",
   "industry": "Games / Entertainment",
-  "tags": [
-    "React",
-    "TypeScript",
-    "Vite",
-    "Sass",
-    "Vitest",
-    "Testing Library"
-  ],
+  "tags": ["React", "TypeScript", "Vite", "Sass", "Vitest", "Testing Library"],
   "challenge": {
     "title": "Keeping a group party game easy to follow between turns.",
     "description": "The game needs to present varied prompts without a complicated setup or interrupting the group. Tracking players and recovering the current turn after a refresh are part of keeping the experience simple."
@@ -27,8 +20,16 @@
     "description": "I built a React and TypeScript interface around reusable cards and swipe interactions, with separate prompt collections for challenges, games, rules, and secret missions. Local storage saves the player count and current player so a session can resume, while colocated Vitest and Testing Library tests cover interface behavior."
   },
   "images": [],
-  "links": {
-    "github": "https://github.com/miguelbogota/brownie-n-friends",
-    "website": "https://brownie-n-friends.web.app"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/brownie-n-friends"
+    },
+    {
+      "label": "Website",
+      "icon": "bx bx-globe",
+      "url": "https://brownie-n-friends.web.app"
+    }
+  ]
 }

@@ -30,7 +30,11 @@
     "description": "I organized the platform as a Turborepo monorepo with reusable authentication and configuration packages. The product service uses Express and Prisma with PostgreSQL, while the order service uses Fastify and MongoDB. Shared Better Auth integration and role permissions provide a common access-control foundation across the services."
   },
   "images": [],
-  "links": {
-    "github": "https://github.com/miguelbogota/line53-platform"
-  }
+  "links": [
+    {
+      "label": "GitHub repository",
+      "icon": "bxl bx-github",
+      "url": "https://github.com/miguelbogota/line53-platform"
+    }
+  ]
 }

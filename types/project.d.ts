@@ -48,9 +48,11 @@ type Project = {
   }[];
   /** External resources related to the project. */
   links?: {
-    /** GitHub repository URL (optional). */
-    github?: string;
-    /** Live project or website URL (optional). */
-    website?: string;
-  };
-}
+    /** Display text and accessible name for the link. */
+    label: string;
+    /** Boxicons class names for the external resource. */
+    icon: string;
+    /** URL to the external resource. */
+    url: string;
+  }[];
+};
