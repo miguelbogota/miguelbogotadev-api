@@ -142,6 +142,203 @@
     ]
   },
   {
+    "id": "freshprint",
+    "startedAt": "2026-09-15",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Freshprint",
+    "summary": "A template-update review demo that identifies outdated working files and presents readable change summaries with Apply or Decline decisions.",
+    "role": "Java / Angular Developer",
+    "companyName": "Personal Project",
+    "industry": "Developer Tools",
+    "tags": [
+      "Java",
+      "Angular",
+      "TypeScript",
+      "Maven"
+    ],
+    "challenge": {
+      "title": "Helping users understand template changes without opening every working file.",
+      "description": "Reviewing template updates can be slow when each engagement takes significant time to open. The exercise explores how to identify pending versions and explain changes before asking a user to make a decision."
+    },
+    "solution": {
+      "title": "Separating version analysis from a focused review interface.",
+      "description": "I built Java logic for accumulated version checks and readable diff summaries alongside an Angular review screen with fixture data and Apply/Decline interactions. The default branch contains separate frontend and backend excerpts; the architecture documents a proposed metadata index, while an alternative branch explores an integrated implementation."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/freshprint"
+    }
+  },
+  {
+    "id": "signal-polymarket-challenge",
+    "startedAt": "2026-08-24",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Signal — Polymarket Challenge",
+    "summary": "An AI-assisted prediction-market prototype for discovering markets, reading streamed context, and tracking simulated positions.",
+    "role": "Full Stack Developer",
+    "companyName": "Personal Project",
+    "industry": "Prediction Markets / AI",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Vanilla Extract",
+      "OpenRouter",
+      "Vitest",
+      "Vercel"
+    ],
+    "challenge": {
+      "title": "Making unfamiliar prediction markets easier to explore and understand.",
+      "description": "The challenge was to connect market discovery, detail views, AI context, and portfolio feedback in one coherent demo while keeping external API failures and simulation boundaries clear."
+    },
+    "solution": {
+      "title": "Combining market discovery with streamed AI context and simulated placements.",
+      "description": "I built a Next.js application with searchable and trending markets, detail pages, and a demo portfolio. Separate services handle Gamma-shaped market data, OpenRouter streaming, short-lived recommendation caching, and simulated placements. Local market fixtures provide a fallback, while demo authentication and in-memory positions keep the prototype's scope explicit."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/signal-polymarket-challenge",
+      "website": "https://signal-polymarket-challenge.vercel.app"
+    }
+  },
+  {
+    "id": "line53-platform",
+    "startedAt": "2026-08-18",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "LINE53 Platform",
+    "summary": "A backend platform for an alternative-fashion marketplace, organized into product, order, and payment service modules with shared authentication.",
+    "role": "Backend Developer",
+    "companyName": "Personal Project",
+    "industry": "E-commerce",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Fastify",
+      "Prisma",
+      "PostgreSQL",
+      "MongoDB",
+      "Better Auth",
+      "Turborepo"
+    ],
+    "challenge": {
+      "title": "Organizing marketplace capabilities across services with consistent access control.",
+      "description": "An alternative-fashion marketplace needs clear boundaries for its catalog, orders, and payments while keeping authentication and role permissions consistent. The project explores those service boundaries in a shared TypeScript workspace."
+    },
+    "solution": {
+      "title": "Building a modular service foundation with shared authentication and tooling.",
+      "description": "I organized the platform as a Turborepo monorepo with reusable authentication and configuration packages. The product service uses Express and Prisma with PostgreSQL, while the order service uses Fastify and MongoDB. Shared Better Auth integration and role permissions provide a common access-control foundation across the services."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/line53-platform"
+    }
+  },
+  {
+    "id": "brownie-n-friends",
+    "startedAt": "2026-07-08",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Brownie N' Friends",
+    "summary": "A browser party game with swipeable cards, challenges, mini-games, rules, and secret missions for groups of friends.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "Games / Entertainment",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Sass",
+      "Vitest",
+      "Testing Library"
+    ],
+    "challenge": {
+      "title": "Keeping a group party game easy to follow between turns.",
+      "description": "The game needs to present varied prompts without a complicated setup or interrupting the group. Tracking players and recovering the current turn after a refresh are part of keeping the experience simple."
+    },
+    "solution": {
+      "title": "Creating a card-driven React experience with persistent game progress.",
+      "description": "I built a React and TypeScript interface around reusable cards and swipe interactions, with separate prompt collections for challenges, games, rules, and secret missions. Local storage saves the player count and current player so a session can resume, while colocated Vitest and Testing Library tests cover interface behavior."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/brownie-n-friends",
+      "website": "https://brownie-n-friends.web.app"
+    }
+  },
+  {
+    "id": "girlfriend-as-a-service",
+    "startedAt": "2026-05-25",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Girlfriend as a Service",
+    "summary": "A playful date-invitation app with personalized links, multilingual copy, GIF reactions, and a configurable WhatsApp contact.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "Interactive Experiences",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Vite",
+      "Firebase Hosting"
+    ],
+    "challenge": {
+      "title": "Making a small invitation feel personal and easy to share.",
+      "description": "The experience needs to adapt to the recipient and language without creating a separate page for every invitation. A lightweight setup also makes it practical to host and share as a static application."
+    },
+    "solution": {
+      "title": "Using URL-based personalization in a lightweight React application.",
+      "description": "I built a React and Vite app that reads the recipient name, WhatsApp number, and language from query parameters. It supports English, Spanish, Italian, and French with an English fallback, includes GIF reactions for the No interaction, and is configured for Firebase Hosting."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/girlfriend-as-a-service",
+      "website": "https://girlfriend-as-a-service.web.app"
+    }
+  },
+  {
+    "id": "meow-clothing-studio",
+    "startedAt": "2026-04-23",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Meow Clothing Studio",
+    "summary": "A clothing storefront that separates product discovery and checkout into independent Next.js applications with shared UI and cart functionality.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "E-commerce",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Turborepo",
+      "Vercel Microfrontends",
+      "Vitest"
+    ],
+    "challenge": {
+      "title": "Keeping shopping and checkout consistent across independent applications.",
+      "description": "Splitting a storefront into microfrontends introduces shared navigation and cart-state concerns. The challenge was to preserve a continuous browsing and checkout experience while allowing each application to have a focused responsibility."
+    },
+    "solution": {
+      "title": "Sharing cart behavior and UI through a Turborepo workspace.",
+      "description": "I built marketplace and checkout applications with Next.js and TypeScript, supported by shared component and cart packages. The cart persists in local storage and uses storage events and custom events to update the interface across application boundaries and tabs. Product filtering, detail pages, quantity controls, and checkout forms complete the shopping flow."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/meow-clothing-studio",
+      "website": "https://meow-clothing-studio-marketplace.vercel.app"
+    }
+  },
+  {
     "id": "miguelbogotadev-v03",
     "startedAt": "2026-01-01",
     "isCurrent": false,
@@ -179,7 +376,7 @@
     ],
     "links": {
       "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
-      "website": "https://miguelbogotadev-v3.web.app"
+      "website": "https://miguelbogotadev-v03.web.app"
     }
   },
   {
@@ -354,10 +551,7 @@
         "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         "alt": "On Watch Us - Maritime Navigation Platform"
       }
-    ],
-    "links": {
-      "website": "https://onwatchus.com"
-    }
+    ]
   },
   {
     "id": "miguelbogotadev-v01",
@@ -396,7 +590,7 @@
     ],
     "links": {
       "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
-      "website": "https://miguelbogotadev.web.app"
+      "website": "https://miguelbogotadev-v01.web.app"
     }
   },
   {
@@ -570,10 +764,7 @@
         "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
         "alt": "Rey Writer - Content Management Interface"
       }
-    ],
-    "links": {
-      "website": "TODO"
-    }
+    ]
   },
   {
     "id": "aosp",

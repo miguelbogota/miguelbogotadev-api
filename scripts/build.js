@@ -10,12 +10,13 @@
  * 2. Filters out the index.json file to prevent circular references
  * 3. Parses each JSON file and removes the $schema property (only needed for individual files)
  * 4. Aggregates all projects into an array
- * 5. Sorts the projects accordingly...
- * 5. Writes the aggregated data to ./index.json with formatted output
+ * 5. Sorts projects by current status, company grouping, and start date
+ * 6. Writes the aggregated data to ./index.json with formatted output
  *
  * Output Format:
- * The resulting index.json is an object containing the current content and an array of project
- * objects sorted by filename order:
+ * The resulting index.json is an array of project objects in portfolio display
+ * order. General site wording in content/v03.json is served separately and is not
+ * included in this output:
  * [
  *   { id: "project-1", name: "Project 1", ... },
  *   { id: "project-2", name: "Project 2", ... },
@@ -23,8 +24,8 @@
  * ]
  *
  * Usage:
- * Run this script to regenerate the aggregated index:
- *   node build.js
+ * Run this script from the repository root to regenerate the aggregated index:
+ *   node scripts/build.js
  *
  * The script should be run whenever project JSON files are added, modified, or removed.
  */
@@ -34,7 +35,6 @@ const path = require('path');
 
 const PROJECTS_DIR = './projects';
 const INDEX_FILE = 'index.json';
-const CONTENT_FILE = './content/v03.json';
 
 try {
   // Verify projects directory exists
