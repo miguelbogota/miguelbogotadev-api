@@ -45,7 +45,7 @@
     },
     {
       "label": "Website",
-      "icon": "bx bx-globe",
+      "icon": "bx bx-arrow-out-up-right-square",
       "url": "https://miguelbogota.github.io/miguelbogotadev-api"
     }
   ]
