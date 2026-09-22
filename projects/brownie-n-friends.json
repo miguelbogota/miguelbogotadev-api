@@ -1,0 +1,34 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "brownie-n-friends",
+  "startedAt": "2026-07-08",
+  "isCurrent": false,
+  "isArchived": false,
+  "aggregate": false,
+  "displayName": "Brownie N' Friends",
+  "summary": "A browser party game with swipeable cards, challenges, mini-games, rules, and secret missions for groups of friends.",
+  "role": "Frontend Developer",
+  "companyName": "Personal Project",
+  "industry": "Games / Entertainment",
+  "tags": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Sass",
+    "Vitest",
+    "Testing Library"
+  ],
+  "challenge": {
+    "title": "Keeping a group party game easy to follow between turns.",
+    "description": "The game needs to present varied prompts without a complicated setup or interrupting the group. Tracking players and recovering the current turn after a refresh are part of keeping the experience simple."
+  },
+  "solution": {
+    "title": "Creating a card-driven React experience with persistent game progress.",
+    "description": "I built a React and TypeScript interface around reusable cards and swipe interactions, with separate prompt collections for challenges, games, rules, and secret missions. Local storage saves the player count and current player so a session can resume, while colocated Vitest and Testing Library tests cover interface behavior."
+  },
+  "images": [],
+  "links": {
+    "github": "https://github.com/miguelbogota/brownie-n-friends",
+    "website": "https://brownie-n-friends.web.app"
+  }
+}
