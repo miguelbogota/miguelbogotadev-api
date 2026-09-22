@@ -6,7 +6,7 @@
     "isArchived": false,
     "aggregate": true,
     "displayName": "Mercado Libre (Reputation)",
-    "description": "The Mercado Libre Reputation System Evolution modernizes seller and buyer trust mechanisms through AI-powered workflows across multiple countries. The new system automates reputation processes, reduces fraud, and significantly improves the buyer experience when discovering new sellers and items.",
+    "summary": "The Mercado Libre Reputation System Evolution modernizes seller and buyer trust mechanisms through AI-powered workflows across multiple countries. The new system automates reputation processes, reduces fraud, and significantly improves the buyer experience when discovering new sellers and items.",
     "role": "Senior Software Engineer",
     "companyName": "Mercado Libre",
     "industry": "E-commerce & Fintech",
@@ -32,8 +32,70 @@
     },
     "images": [
       {
-        "src": "/project-images/mercadolibre-reputation/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/01.png",
         "alt": "Mercado Libre Reputation - AI-powered Trust System"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/02.png",
+        "alt": "Mercado Libre Reputation - Automated Trust Workflows"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/03.gif",
+        "alt": "Mercado Libre Reputation - Global Trust Standards"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/04.png",
+        "alt": "Mercado Libre Reputation - Data-Driven Insights"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/05.png",
+        "alt": "Mercado Libre Reputation - Real-Time Monitoring"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/06.gif",
+        "alt": "Mercado Libre Reputation - Mobile Optimization"
+      }
+    ]
+  },
+  {
+    "id": "mercadolibre-summary",
+    "startedAt": "2024-08-16",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": true,
+    "displayName": "Mercado Libre (Summary)",
+    "summary": "Led the migration of Mercado Libre's legacy UI system to a modern, scalable architecture using contemporary web technologies. This migration improved user experience, development velocity, and system maintainability while ensuring business continuity and enhanced performance.",
+    "role": "Senior Software Engineer",
+    "companyName": "Mercado Libre",
+    "industry": "E-commerce & Fintech",
+    "tags": [
+      "UI Migration",
+      "Frontend Modernization",
+      "React",
+      "TypeScript",
+      "Modern Web Technologies",
+      "System Architecture",
+      "Performance Optimization",
+      "Developer Experience",
+      "Scalability",
+      "Business Continuity"
+    ],
+    "challenge": {
+      "title": "Migrating a complex legacy UI system to modern technologies while maintaining business continuity and improving user experience.",
+      "description": "Mercado Libre's existing UI system was built on outdated technologies, making it difficult to maintain, scale, and develop new features. The system suffered from performance issues, poor developer experience, and technical debt that slowed down innovation. The challenge was to migrate to a modern tech stack without disrupting ongoing business operations, ensure seamless user experience during transition, and establish a foundation for future growth. This required careful planning, incremental migration strategies, and close coordination with multiple teams to ensure zero downtime and maintain feature parity."
+    },
+    "solution": {
+      "title": "Architected and executed a comprehensive UI migration to modern web technologies, significantly improving performance, developer experience, and system maintainability.",
+      "description": "I led the technical planning and execution of migrating Mercado Libre's legacy UI system to a modern technology stack. We designed an incremental migration strategy that allowed us to transition components gradually while maintaining full system functionality. I made key architectural decisions including the adoption of React with TypeScript for type safety, implementation of modern build tools and development workflows, and establishment of new coding standards and best practices. The migration involved creating reusable component libraries, implementing state management solutions, and optimizing performance through code splitting and lazy loading. We established comprehensive testing strategies to ensure feature parity and created detailed documentation to help teams adapt to the new system. The results were transformative: dramatically improved page load speeds, enhanced developer productivity with better tooling and debugging capabilities, reduced technical debt, and established a scalable foundation for future feature development. The new system now supports rapid iteration while maintaining the stability and reliability expected by millions of users."
+    },
+    "images": [
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/01.png",
+        "alt": "Mercado Libre UI Migration - Modern Mobile Experience"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/02.gif",
+        "alt": "Mercado Libre UI Migration - Modern Web Architecture"
       }
     ]
   },
@@ -44,7 +106,7 @@
     "isArchived": false,
     "aggregate": true,
     "displayName": "Mercado Libre (Sales)",
-    "description": "The Mercado Libre Sales Platform Integration project unifies the Mercado Pago and Mercado Libre ecosystems into a single, cohesive seller experience. Sellers can now view all transaction data, sales metrics, and payment information across both platforms in one consolidated dashboard.",
+    "summary": "The Mercado Libre Sales Platform Integration project unifies the Mercado Pago and Mercado Libre ecosystems into a single, cohesive seller experience. Sellers can now view all transaction data, sales metrics, and payment information across both platforms in one consolidated dashboard.",
     "role": "Senior Software Engineer",
     "companyName": "Mercado Libre",
     "industry": "E-commerce & Fintech",
@@ -70,10 +132,211 @@
     },
     "images": [
       {
-        "src": "/project-images/mercadolibre-sales/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/01.png",
         "alt": "Mercado Libre Sales - Unified Seller Dashboard"
+      },
+      {
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/02.gif",
+        "alt": "Mercado Libre Sales - Unified Seller Experience"
       }
     ]
+  },
+  {
+    "id": "freshprint",
+    "startedAt": "2026-09-15",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Freshprint",
+    "summary": "A template-update review demo that identifies outdated working files and presents readable change summaries with Apply or Decline decisions.",
+    "role": "Java / Angular Developer",
+    "companyName": "Personal Project",
+    "industry": "Developer Tools",
+    "tags": [
+      "Java",
+      "Angular",
+      "TypeScript",
+      "Maven"
+    ],
+    "challenge": {
+      "title": "Helping users understand template changes without opening every working file.",
+      "description": "Reviewing template updates can be slow when each engagement takes significant time to open. The exercise explores how to identify pending versions and explain changes before asking a user to make a decision."
+    },
+    "solution": {
+      "title": "Separating version analysis from a focused review interface.",
+      "description": "I built Java logic for accumulated version checks and readable diff summaries alongside an Angular review screen with fixture data and Apply/Decline interactions. The default branch contains separate frontend and backend excerpts; the architecture documents a proposed metadata index, while an alternative branch explores an integrated implementation."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/freshprint"
+    }
+  },
+  {
+    "id": "signal-polymarket-challenge",
+    "startedAt": "2026-08-24",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Signal — Polymarket Challenge",
+    "summary": "An AI-assisted prediction-market prototype for discovering markets, reading streamed context, and tracking simulated positions.",
+    "role": "Full Stack Developer",
+    "companyName": "Personal Project",
+    "industry": "Prediction Markets / AI",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Vanilla Extract",
+      "OpenRouter",
+      "Vitest",
+      "Vercel"
+    ],
+    "challenge": {
+      "title": "Making unfamiliar prediction markets easier to explore and understand.",
+      "description": "The challenge was to connect market discovery, detail views, AI context, and portfolio feedback in one coherent demo while keeping external API failures and simulation boundaries clear."
+    },
+    "solution": {
+      "title": "Combining market discovery with streamed AI context and simulated placements.",
+      "description": "I built a Next.js application with searchable and trending markets, detail pages, and a demo portfolio. Separate services handle Gamma-shaped market data, OpenRouter streaming, short-lived recommendation caching, and simulated placements. Local market fixtures provide a fallback, while demo authentication and in-memory positions keep the prototype's scope explicit."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/signal-polymarket-challenge",
+      "website": "https://signal-polymarket-challenge.vercel.app"
+    }
+  },
+  {
+    "id": "line53-platform",
+    "startedAt": "2026-08-18",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "LINE53 Platform",
+    "summary": "A backend platform for an alternative-fashion marketplace, organized into product, order, and payment service modules with shared authentication.",
+    "role": "Backend Developer",
+    "companyName": "Personal Project",
+    "industry": "E-commerce",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Fastify",
+      "Prisma",
+      "PostgreSQL",
+      "MongoDB",
+      "Better Auth",
+      "Turborepo"
+    ],
+    "challenge": {
+      "title": "Organizing marketplace capabilities across services with consistent access control.",
+      "description": "An alternative-fashion marketplace needs clear boundaries for its catalog, orders, and payments while keeping authentication and role permissions consistent. The project explores those service boundaries in a shared TypeScript workspace."
+    },
+    "solution": {
+      "title": "Building a modular service foundation with shared authentication and tooling.",
+      "description": "I organized the platform as a Turborepo monorepo with reusable authentication and configuration packages. The product service uses Express and Prisma with PostgreSQL, while the order service uses Fastify and MongoDB. Shared Better Auth integration and role permissions provide a common access-control foundation across the services."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/line53-platform"
+    }
+  },
+  {
+    "id": "brownie-n-friends",
+    "startedAt": "2026-07-08",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Brownie N' Friends",
+    "summary": "A browser party game with swipeable cards, challenges, mini-games, rules, and secret missions for groups of friends.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "Games / Entertainment",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Sass",
+      "Vitest",
+      "Testing Library"
+    ],
+    "challenge": {
+      "title": "Keeping a group party game easy to follow between turns.",
+      "description": "The game needs to present varied prompts without a complicated setup or interrupting the group. Tracking players and recovering the current turn after a refresh are part of keeping the experience simple."
+    },
+    "solution": {
+      "title": "Creating a card-driven React experience with persistent game progress.",
+      "description": "I built a React and TypeScript interface around reusable cards and swipe interactions, with separate prompt collections for challenges, games, rules, and secret missions. Local storage saves the player count and current player so a session can resume, while colocated Vitest and Testing Library tests cover interface behavior."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/brownie-n-friends",
+      "website": "https://brownie-n-friends.web.app"
+    }
+  },
+  {
+    "id": "girlfriend-as-a-service",
+    "startedAt": "2026-05-25",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Girlfriend as a Service",
+    "summary": "A playful date-invitation app with personalized links, multilingual copy, GIF reactions, and a configurable WhatsApp contact.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "Interactive Experiences",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Vite",
+      "Firebase Hosting"
+    ],
+    "challenge": {
+      "title": "Making a small invitation feel personal and easy to share.",
+      "description": "The experience needs to adapt to the recipient and language without creating a separate page for every invitation. A lightweight setup also makes it practical to host and share as a static application."
+    },
+    "solution": {
+      "title": "Using URL-based personalization in a lightweight React application.",
+      "description": "I built a React and Vite app that reads the recipient name, WhatsApp number, and language from query parameters. It supports English, Spanish, Italian, and French with an English fallback, includes GIF reactions for the No interaction, and is configured for Firebase Hosting."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/girlfriend-as-a-service",
+      "website": "https://girlfriend-as-a-service.web.app"
+    }
+  },
+  {
+    "id": "meow-clothing-studio",
+    "startedAt": "2026-04-23",
+    "isCurrent": false,
+    "isArchived": false,
+    "aggregate": false,
+    "displayName": "Meow Clothing Studio",
+    "summary": "A clothing storefront that separates product discovery and checkout into independent Next.js applications with shared UI and cart functionality.",
+    "role": "Frontend Developer",
+    "companyName": "Personal Project",
+    "industry": "E-commerce",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Turborepo",
+      "Vercel Microfrontends",
+      "Vitest"
+    ],
+    "challenge": {
+      "title": "Keeping shopping and checkout consistent across independent applications.",
+      "description": "Splitting a storefront into microfrontends introduces shared navigation and cart-state concerns. The challenge was to preserve a continuous browsing and checkout experience while allowing each application to have a focused responsibility."
+    },
+    "solution": {
+      "title": "Sharing cart behavior and UI through a Turborepo workspace.",
+      "description": "I built marketplace and checkout applications with Next.js and TypeScript, supported by shared component and cart packages. The cart persists in local storage and uses storage events and custom events to update the interface across application boundaries and tabs. Product filtering, detail pages, quantity controls, and checkout forms complete the shopping flow."
+    },
+    "images": [],
+    "links": {
+      "github": "https://github.com/miguelbogota/meow-clothing-studio",
+      "website": "https://meow-clothing-studio-marketplace.vercel.app"
+    }
   },
   {
     "id": "miguelbogotadev-v03",
@@ -81,7 +344,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "Miguel Bogota Dev V3",
-    "description": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
+    "summary": "Miguel Bogota Dev V3 is the latest iteration of the personal portfolio, leveraging TanStack Start for cutting-edge fullstack framework capabilities. Deployed on Firebase App Hosting, the portfolio consumes data from the Miguel Bogota Dev API, representing the evolution toward modern, composable web architecture.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Portfolio",
@@ -107,13 +370,13 @@
     },
     "images": [
       {
-        "src": "/project-images/miguelbogotadev-v3/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v3/01.png",
         "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
       }
     ],
     "links": {
       "github": "https://github.com/miguelbogota/miguelbogotadev-v3",
-      "website": "https://miguelbogotadev-v3.web.app"
+      "website": "https://miguelbogotadev-v03.web.app"
     }
   },
   {
@@ -122,7 +385,7 @@
     "isCurrent": false,
     "isArchived": true,
     "displayName": "Miguel Bogota Dev V2",
-    "description": "Miguel Bogota Dev V2 is the second iteration of the personal portfolio, built with Next.js for improved performance and server-side rendering capabilities. The portfolio integrates with the Miguel Bogota Dev API to fetch project and experience data, creating a dynamic, data-driven experience with modern fullstack architecture.",
+    "summary": "Miguel Bogota Dev V2 is the second iteration of the personal portfolio, built with Next.js for improved performance and server-side rendering capabilities. The portfolio integrates with the Miguel Bogota Dev API to fetch project and experience data, creating a dynamic, data-driven experience with modern fullstack architecture.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Portfolio",
@@ -148,7 +411,7 @@
     },
     "images": [
       {
-        "src": "/project-images/miguelbogotadev-v2/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v2/01.png",
         "alt": "Miguel Bogota Dev V2 - Modern Portfolio Interface"
       }
     ],
@@ -163,7 +426,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "Crypto June",
-    "description": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
+    "summary": "Crypto June is a cross-platform mobile application that enables users to monitor cryptocurrency prices and portfolio performance in real-time. Built entirely with React Native and Expo, the app delivers a native-quality experience on both iOS and Android, providing investors with instant access to their digital asset tracking.",
     "role": "React Native Cross-Platform Developer",
     "companyName": "Personal Project",
     "industry": "Fintech & Cryptocurrency",
@@ -194,15 +457,15 @@
     },
     "images": [
       {
-        "src": "/project-images/crypto-june/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/01.png",
         "alt": "Crypto June - Cryptocurrency Price Dashboard"
       },
       {
-        "src": "/project-images/crypto-june/02.gif",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/02.gif",
         "alt": "Crypto June - Real-time Price Updates Animation"
       },
       {
-        "src": "/project-images/crypto-june/03.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/03.png",
         "alt": "Crypto June - Portfolio Management Screen"
       }
     ],
@@ -216,7 +479,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "AOSP Dealers",
-    "description": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
+    "summary": "AOSP Dealers is a greenfield platform built for AmeriCasa dealer operations, designed to streamline workflow and maximize operational efficiency. Developed from scratch as a next-generation tool, it replaced legacy systems with modern Angular architecture.",
     "role": "Front End Angular Developer",
     "companyName": "Newton Vision Corporation",
     "industry": "Enterprise Software & Consulting",
@@ -245,11 +508,11 @@
     },
     "images": [
       {
-        "src": "/project-images/aosp-dealers/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/01.png",
         "alt": "AOSP Dealers - Dealer Operations Dashboard"
       },
       {
-        "src": "/project-images/aosp-dealers/02.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/02.png",
         "alt": "AOSP Dealers - Workflow Management Interface"
       }
     ]
@@ -260,7 +523,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "On Watch Us",
-    "description": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
+    "summary": "On Watch Us is a critical maritime navigation platform that enables pilots to guide vessels safely through complex port operations in Galveston, Texas. The platform streamlines communication between maritime professionals and port authorities, reducing coordination time and enhancing safety protocols.",
     "role": "Node.js & Flutter Senior Developer",
     "companyName": "On Watch Us",
     "industry": "Maritime & Logistics",
@@ -288,10 +551,7 @@
         "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         "alt": "On Watch Us - Maritime Navigation Platform"
       }
-    ],
-    "links": {
-      "website": "https://onwatchus.com"
-    }
+    ]
   },
   {
     "id": "miguelbogotadev-v01",
@@ -299,7 +559,7 @@
     "isCurrent": false,
     "isArchived": true,
     "displayName": "Miguel Bogota Dev V1",
-    "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
+    "summary": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Portfolio",
@@ -324,13 +584,13 @@
     },
     "images": [
       {
-        "src": "/project-images/miguelbogotadev-v1/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v1/01.png",
         "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
       }
     ],
     "links": {
       "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
-      "website": "https://miguelbogotadev.web.app"
+      "website": "https://miguelbogotadev-v01.web.app"
     }
   },
   {
@@ -339,7 +599,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "Galtex",
-    "description": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
+    "summary": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
     "role": "Senior Developer & Quality Analyst",
     "companyName": "Newton Vision Corporation",
     "industry": "Enterprise Software",
@@ -379,7 +639,7 @@
     "isCurrent": false,
     "isArchived": true,
     "displayName": "Clothing Park",
-    "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
+    "summary": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
     "role": "React Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "E-commerce",
@@ -406,15 +666,15 @@
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/01.png",
         "alt": "Clothing Park - Home Page"
       },
       {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/02.png",
         "alt": "Clothing Park - Shop Page"
       },
       {
-        "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/03.png",
         "alt": "Clothing Park - Checkout Page"
       }
     ],
@@ -429,7 +689,7 @@
     "isCurrent": false,
     "isArchived": true,
     "displayName": "NVC Movies",
-    "description": "NVC Movies is a comprehensive movie discovery and curation platform that aggregates detailed film information and enables users to discover, explore, and rank movies based on personalized preferences. The platform combines rich data visualization with an intuitive rating system.",
+    "summary": "NVC Movies is a comprehensive movie discovery and curation platform that aggregates detailed film information and enables users to discover, explore, and rank movies based on personalized preferences. The platform combines rich data visualization with an intuitive rating system.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Entertainment & Media",
@@ -469,7 +729,7 @@
     "isCurrent": false,
     "isArchived": true,
     "displayName": "Rey Writer",
-    "description": "Rey Writer is a sophisticated personal blogging platform designed to showcase compelling narratives and literary content with an emphasis on visual elegance and readability. The platform combines a responsive frontend experience with robust backend infrastructure to deliver stories in a minimalist, distraction-free environment.",
+    "summary": "Rey Writer is a sophisticated personal blogging platform designed to showcase compelling narratives and literary content with an emphasis on visual elegance and readability. The platform combines a responsive frontend experience with robust backend infrastructure to deliver stories in a minimalist, distraction-free environment.",
     "role": "Full Stack Developer",
     "companyName": "Personal Project",
     "industry": "Publishing / Content Creation",
@@ -504,10 +764,7 @@
         "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
         "alt": "Rey Writer - Content Management Interface"
       }
-    ],
-    "links": {
-      "website": "TODO"
-    }
+    ]
   },
   {
     "id": "aosp",
@@ -515,7 +772,7 @@
     "isCurrent": false,
     "isArchived": false,
     "displayName": "AOSP",
-    "description": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
+    "summary": "AOSP is a comprehensive business transformation platform developed for AmeriCasa by Newton Vision Corporation. As a quality-focused developer, I played a key role in establishing development standards and leading the team to deliver an enterprise Angular application with significant business impact.",
     "role": "Front End Developer & Quality Analyst",
     "companyName": "Newton Vision Corporation",
     "industry": "Enterprise Software & Consulting",
@@ -543,7 +800,7 @@
     },
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp/01.png",
         "alt": "AOSP - Enterprise Business Transformation Platform"
       }
     ]

@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": false,
   "displayName": "Galtex",
-  "description": "Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
+  "summary" :"Galtex is an enterprise order management platform redesigned for security, efficiency, and performance. As a critical internal application at Newton Vision Corporation, the platform serves as the backbone for order processing operations with a focus on user accessibility and system reliability.",
   "role": "Senior Developer & Quality Analyst",
   "companyName": "Newton Vision Corporation",
   "industry": "Enterprise Software",

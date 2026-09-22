@@ -2,7 +2,7 @@
  * Represents a portfolio project with comprehensive details about
  * its scope, implementation, and resources.
  */
-export interface Project {
+type Project = {
   /** Unique identifier for the project. */
   id: string;
   /** Project start date in format yyyy-mm-dd. */
@@ -16,7 +16,7 @@ export interface Project {
   /** Project title. */
   displayName: string;
   /** Brief overview of what the project does. */
-  description: string;
+  summary: string;
   /** User's role or position in the project. */
   role: string;
   /** Organization or company associated with the project. */

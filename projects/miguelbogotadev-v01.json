@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": true,
   "displayName": "Miguel Bogota Dev V1",
-  "description": "Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
+  "summary" :"Miguel Bogota Dev V1 is the first iteration of a personal portfolio website designed to showcase professional work and projects. Built with Angular and Firebase, the platform emphasizes minimalist design principles and smooth visual interactions to create an engaging user experience.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "Portfolio",
@@ -30,12 +30,12 @@
   },
   "images": [
     {
-      "src": "/project-images/miguelbogotadev-v1/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v1/01.png",
       "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
     }
   ],
   "links": {
     "github": "https://github.com/miguelbogota/miguelbogotadev-v1",
-    "website": "https://miguelbogotadev.web.app"
+    "website": "https://miguelbogotadev-v01.web.app"
   }
 }

@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": true,
   "displayName": "Clothing Park",
-  "description": "Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
+  "summary" :"Clothing park is a personal project which help me to improve technologies like React, Redux, Firebase and good practices. With an effort to keep my skill sharp I took the initiative to create something different and new while improving some of my low areas.",
   "role": "React Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "E-commerce",
@@ -32,15 +32,15 @@
   },
   "images": [
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/01.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/01.png",
       "alt": "Clothing Park - Home Page"
     },
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/02.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/02.png",
       "alt": "Clothing Park - Shop Page"
     },
     {
-      "src": "https://raw.githubusercontent.com/miguelbogota/miguelbogotadev-api/refs/heads/production/project-images/clothing-park/03.png",
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/03.png",
       "alt": "Clothing Park - Checkout Page"
     }
   ],

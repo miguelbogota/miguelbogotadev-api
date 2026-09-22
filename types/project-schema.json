@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "project.schema.json",
   "title": "Project",
-  "description": "Represents a portfolio project with comprehensive details about its scope, implementation, and resources.",
+  "summary" :"Represents a portfolio project with comprehensive details about its scope, implementation, and resources.",
   "type": "object",
   "required": [
     "id",
@@ -10,7 +10,6 @@
     "isCurrent",
     "isArchived",
     "displayName",
-    "description",
     "role",
     "companyName",
     "industry",
@@ -49,7 +48,7 @@
       "type": "string",
       "description": "Project title."
     },
-    "description": {
+    "summary": {
       "type": "string",
       "description": "Brief overview of what the project does."
     },

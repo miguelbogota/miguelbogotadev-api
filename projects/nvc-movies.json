@@ -5,7 +5,7 @@
   "isCurrent": false,
   "isArchived": true,
   "displayName": "NVC Movies",
-  "description": "NVC Movies is a comprehensive movie discovery and curation platform that aggregates detailed film information and enables users to discover, explore, and rank movies based on personalized preferences. The platform combines rich data visualization with an intuitive rating system.",
+  "summary" :"NVC Movies is a comprehensive movie discovery and curation platform that aggregates detailed film information and enables users to discover, explore, and rank movies based on personalized preferences. The platform combines rich data visualization with an intuitive rating system.",
   "role": "Full Stack Developer",
   "companyName": "Personal Project",
   "industry": "Entertainment & Media",

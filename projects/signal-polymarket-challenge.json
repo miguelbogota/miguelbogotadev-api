@@ -1,0 +1,35 @@
+{
+  "$schema": "../types/project-schema.json",
+  "id": "signal-polymarket-challenge",
+  "startedAt": "2026-08-24",
+  "isCurrent": false,
+  "isArchived": false,
+  "aggregate": false,
+  "displayName": "Signal — Polymarket Challenge",
+  "summary": "An AI-assisted prediction-market prototype for discovering markets, reading streamed context, and tracking simulated positions.",
+  "role": "Full Stack Developer",
+  "companyName": "Personal Project",
+  "industry": "Prediction Markets / AI",
+  "tags": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vanilla Extract",
+    "OpenRouter",
+    "Vitest",
+    "Vercel"
+  ],
+  "challenge": {
+    "title": "Making unfamiliar prediction markets easier to explore and understand.",
+    "description": "The challenge was to connect market discovery, detail views, AI context, and portfolio feedback in one coherent demo while keeping external API failures and simulation boundaries clear."
+  },
+  "solution": {
+    "title": "Combining market discovery with streamed AI context and simulated placements.",
+    "description": "I built a Next.js application with searchable and trending markets, detail pages, and a demo portfolio. Separate services handle Gamma-shaped market data, OpenRouter streaming, short-lived recommendation caching, and simulated placements. Local market fixtures provide a fallback, while demo authentication and in-memory positions keep the prototype's scope explicit."
+  },
+  "images": [],
+  "links": {
+    "github": "https://github.com/miguelbogota/signal-polymarket-challenge",
+    "website": "https://signal-polymarket-challenge.vercel.app"
+  }
+}
