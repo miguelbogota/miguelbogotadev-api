@@ -78,33 +78,3 @@ const res = await fetch(
 const project = await res.json();
 console.log(project);
 ```
-
-For the content of a specific project:
-
-```javascript
-const res = await fetch(
-  'https://miguelbogota.github.io/miguelbogotadev-api/content/v03.json',
-);
-
-const content = await res.json();
-console.log(content);
-```
-
-
-### External link format
-
-Project `links` and `content/v03.json` social links use the same structure:
-
-```json
-[
-  {
-    "label": "GitHub repository",
-    "icon": "bxl bx-github",
-    "url": "https://github.com/miguelbogota/freshprint"
-  }
-]
-```
-
-Project links are optional. Each entry provides its own accessible label, Boxicons
-classes, and destination URL. Social links also support contact URLs such as
-`mailto:`. Navigation section IDs and the resume action's `href` remain unchanged.
