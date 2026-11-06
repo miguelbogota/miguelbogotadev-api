@@ -1,0 +1,23 @@
+{
+  "name": "miguelbogotadev-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A centralized API that powers all my portfolio websites, providing a single place to manage and serve projects, experience, skills, and other portfolio data.",
+  "homepage": "https://github.com/miguelbogota/miguelbogotadev-api",
+  "bugs": {
+    "url": "https://github.com/miguelbogota/miguelbogotadev-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelbogota/miguelbogotadev-api.git"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@11ty/gray-matter": "^3.0.0",
+    "husky": "^9.1.7",
+    "zod": "^4.6.7"
+  }
+}

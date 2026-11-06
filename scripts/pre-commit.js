@@ -8,6 +8,7 @@
  * Process:
  * 1. Checks for unstaged index.json changes to avoid overwriting manual work.
  * 2. Creates a temporary directory containing the staged builder and source files.
+ *    The temporary snapshot reuses this checkout's installed dependencies.
  * 3. Runs scripts/build.js from that directory using the current Node.js runtime.
  * 4. Copies the generated index.json back and stages it for the pending commit.
  * 5. Removes the temporary directory, whether the build succeeds or fails.
@@ -25,25 +26,23 @@
  * Only the generated index.json is automatically staged after a successful build.
  *
  * Usage:
- * Enable .githooks/pre-commit once per clone:
- *   git config core.hooksPath .githooks
- *
- * Git then invokes this script through the hook from the repository root.
- * Node.js must be available on PATH. Stage scripts/build.js when installing or
- * changing the builder, since the build uses its staged version as well.
+ * Husky invokes this script from .husky/pre-commit. Node.js and the project npm
+ * dependencies must be installed. Stage builder and schema changes together,
+ * since the build uses their staged versions.
  */
 
-const fs = require('node:fs');
-const os = require('node:os');
-const path = require('node:path');
-const { execFileSync } = require('node:child_process');
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { PROJECT_INDEX_FILE, PROJECTS_DIRECTORY } from './constants.js';
 
 const git = (...args) => execFileSync('git', args);
 let temporary;
 
 try {
   // The generated file may contain manual edits; do not silently replace them.
-  if (git('diff', '--name-only', '--', 'index.json').length) {
+  if (git('diff', '--name-only', '--', PROJECT_INDEX_FILE).length) {
     throw new Error(
       'index.json has unstaged changes. Stage or restore that generated file before committing.',
     );
@@ -51,14 +50,18 @@ try {
 
   temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'portfolio-build-'));
   // Git does not track empty directories, including after the last project is deleted.
-  fs.mkdirSync(path.join(temporary, 'projects'));
+  fs.mkdirSync(path.join(temporary, PROJECTS_DIRECTORY));
+  fs.symlinkSync(
+    path.resolve('node_modules'),
+    path.join(temporary, 'node_modules'),
+  );
   // NUL separators preserve filenames containing spaces or newlines.
   const files = git(
     'ls-files',
     '-z',
     '--',
-    'scripts/build.js',
-    'projects',
+    'scripts',
+    PROJECTS_DIRECTORY,
     'content',
     'types',
   )
@@ -79,10 +82,10 @@ try {
     stdio: 'inherit',
   });
 
-  const output = fs.readFileSync(path.join(temporary, 'index.json'));
+  const output = fs.readFileSync(path.join(temporary, PROJECT_INDEX_FILE));
   // Git includes this in the pending commit and ignores byte-identical output.
-  fs.writeFileSync('index.json', output);
-  git('add', '--', 'index.json');
+  fs.writeFileSync(PROJECT_INDEX_FILE, output);
+  git('add', '--', PROJECT_INDEX_FILE);
 } catch (error) {
   console.error(`Pre-commit build failed: ${error.message}`);
   process.exitCode = 1;

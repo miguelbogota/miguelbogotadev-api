@@ -8,13 +8,15 @@ type Project = {
   /** Project start date in format yyyy-mm-dd. */
   startedAt: `${number}${number}${number}${number}-${number}${number}-${number}${number}`;
   /** Project end date in format yyyy-mm-dd. */
-  endedAt: `${number}${number}${number}${number}-${number}${number}-${number}${number}` | null;
+  endedAt:
+    | `${number}${number}${number}${number}-${number}${number}-${number}${number}`
+    | null;
   /** Indicates if I'm currently working at that place. */
   isCurrent: boolean;
   /** Indicates if the project is archived. */
   isArchived: boolean;
   /** Indicates if the project is an aggregate of multiple related projects. */
-  aggregate?: boolean;
+  aggregate: boolean;
   /** Project title. */
   displayName: string;
   /** Brief overview of what the project does. */
@@ -27,20 +29,6 @@ type Project = {
   industry: string;
   /** Technology stack and relevant keywords. */
   tags: string[];
-  /** Describes the problem being solved. */
-  challenge: {
-    /** Challenge headline that reads naturally as a sentence. */
-    title: string;
-    /** Detailed explanation of the problem. */
-    description: string;
-  };
-  /** Describes how the challenge was addressed. */
-  solution: {
-    /** Solution headline that reads naturally as a sentence. */
-    title: string;
-    /** Detailed explanation of the approach. */
-    description: string;
-  };
   /** Project showcase images. */
   images: {
     /** Image file path or URL. */
@@ -49,7 +37,7 @@ type Project = {
     alt: string;
   }[];
   /** External resources related to the project. */
-  links?: {
+  links: {
     /** Display text and accessible name for the link. */
     label: string;
     /** Boxicons class names for the external resource. */
@@ -58,3 +46,6 @@ type Project = {
     url: string;
   }[];
 };
+
+/** Metadata emitted for each project in index.json. */
+declare type ProjectMetadata = Project;

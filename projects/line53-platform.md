@@ -1,0 +1,40 @@
+---
+id: 'line53-platform'
+startedAt: '2026-08-18'
+endedAt: '2026-11-01'
+isCurrent: false
+isArchived: false
+aggregate: false
+displayName: 'LINE53 Platform'
+summary: 'A backend platform for an alternative-fashion marketplace, organized into product, order, and payment service modules with shared authentication.'
+role: 'Backend Developer'
+companyName: 'Personal Project'
+industry: 'E-commerce'
+tags:
+  - 'TypeScript'
+  - 'Node.js'
+  - 'Express'
+  - 'Fastify'
+  - 'Prisma'
+  - 'PostgreSQL'
+  - 'MongoDB'
+  - 'Better Auth'
+  - 'Turborepo'
+images: []
+links:
+  - label: 'GitHub repository'
+    icon: 'bxl bx-github'
+    url: 'https://github.com/miguelbogota/line53-platform'
+---
+
+## Challenge
+
+### Organizing marketplace capabilities across services with consistent access control.
+
+An alternative-fashion marketplace needs clear boundaries for its catalog, orders, and payments while keeping authentication and role permissions consistent. The project explores those service boundaries in a shared TypeScript workspace.
+
+## Solution
+
+### Building a modular service foundation with shared authentication and tooling.
+
+I organized the platform as a Turborepo monorepo with reusable authentication and configuration packages. The product service uses Express and Prisma with PostgreSQL, while the order service uses Fastify and MongoDB. Shared Better Auth integration and role permissions provide a common access-control foundation across the services.

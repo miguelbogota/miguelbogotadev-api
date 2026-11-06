@@ -1,17 +1,13 @@
 /**
  * Project Builder Script
  *
- * This script consolidates all individual project JSON files from the 'projects' directory
- * into a single index.json file. This enables efficient bulk loading and serving of all
- * project data through a single API endpoint or data source.
+ * Consolidates project Markdown frontmatter into a single metadata index.
  *
  * Process:
- * 1. Reads all .json files from the ./projects directory
- * 2. Filters out the index.json file to prevent circular references
- * 3. Parses each JSON file and removes the $schema property (only needed for individual files)
- * 4. Aggregates all projects into an array
- * 5. Sorts projects by current status, company grouping, and start date
- * 6. Writes the aggregated data to ./index.json with formatted output
+ * 1. Reads and validates every .md file in ./projects.
+ * 2. Extracts YAML frontmatter and excludes the Markdown body.
+ * 3. Sorts metadata by current status, company grouping, and start date.
+ * 4. Writes the aggregated metadata to ./index.json.
  *
  * Output Format:
  * The resulting index.json is an array of project objects in portfolio display
@@ -27,35 +23,22 @@
  * Run this script from the repository root to regenerate the aggregated index:
  *   node scripts/build.js
  *
- * The script should be run whenever project JSON files are added, modified, or removed.
+ * The script should be run whenever project Markdown files are changed.
  */
 
-const fs = require('fs');
-const path = require('path');
-
-const PROJECTS_DIR = './projects';
-const INDEX_FILE = 'index.json';
+import fs from 'node:fs';
+import { PROJECT_INDEX_FILE, PROJECTS_DIRECTORY } from './constants.js';
+import { readProjects } from './project-reader.js';
+import { validateProjects } from './project-validator.js';
 
 try {
-  // Verify projects directory exists
-  if (!fs.existsSync(PROJECTS_DIR)) {
-    throw new Error(`Projects directory not found: ${PROJECTS_DIR}`);
-  }
+  const projectSources = readProjects(PROJECTS_DIRECTORY);
+  const projectFiles = validateProjects(projectSources);
+  const projects = projectFiles.map(({ metadata }) => metadata);
 
-  // Read all files from projects directory
-  const files = fs.readdirSync(PROJECTS_DIR);
-  console.log(`Found ${files.length} files in ${PROJECTS_DIR}`);
-
-  // Filter, read, and aggregate project files (excluding index.json and removing $schema)
-  const projects = files
-    .filter((f) => f.endsWith('.json') && f !== INDEX_FILE)
-    .map((filename) => {
-      const data = JSON.parse(
-        fs.readFileSync(path.join(PROJECTS_DIR, filename), 'utf8'),
-      );
-      delete data.$schema;
-      return data;
-    });
+  console.log(
+    `Found ${projects.length} Markdown project(s) in ${PROJECTS_DIRECTORY}`,
+  );
 
   const sortedProjects = sortProjects(projects);
 
@@ -65,12 +48,12 @@ try {
 
   // Write aggregated data to index.json
   const output = JSON.stringify(sortedProjects, null, 2);
-  fs.writeFileSync(INDEX_FILE, output, 'utf8');
+  fs.writeFileSync(PROJECT_INDEX_FILE, output, 'utf8');
 
   console.log(
     `\n✓ Successfully aggregated ${sortedProjects.length} project(s)`,
   );
-  console.log(`✓ Index file created: ${INDEX_FILE}`);
+  console.log(`✓ Index file created: ${PROJECT_INDEX_FILE}`);
   console.log(`  Size: ${Math.round(output.length / 1024)} KB`);
 } catch (error) {
   console.error('✗ Aggregation failed:', error.message);
@@ -91,10 +74,13 @@ try {
  * Projects without aggregate === true are treated individually.
  * The original array is not modified.
  *
- * @param {Object[]} projects - Array of projects to sort.
- * @returns {Object[]} The sorted projects.
+ * @param {import('../types/project.js').ProjectMetadata[]} projects
+ *   Validated project metadata. The input array is not modified.
+ * @returns {import('../types/project.js').ProjectMetadata[]}
+ *   Projects in portfolio display order.
  */
 function sortProjects(projects) {
+  /** @type {Map<string, import('../types/project.js').ProjectMetadata[]>} */
   const groups = new Map();
 
   for (const project of projects) {

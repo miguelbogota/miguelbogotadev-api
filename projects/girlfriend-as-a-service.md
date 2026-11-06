@@ -1,0 +1,38 @@
+---
+id: 'girlfriend-as-a-service'
+startedAt: '2026-05-25'
+endedAt: '2026-06-12'
+isCurrent: false
+isArchived: false
+aggregate: false
+displayName: 'Girlfriend as a Service'
+summary: 'A playful date-invitation app with personalized links, multilingual copy, GIF reactions, and a configurable WhatsApp contact.'
+role: 'Frontend Developer'
+companyName: 'Personal Project'
+industry: 'Interactive Experiences'
+tags:
+  - 'React'
+  - 'JavaScript'
+  - 'Vite'
+  - 'Firebase Hosting'
+images: []
+links:
+  - label: 'GitHub repository'
+    icon: 'bxl bx-github'
+    url: 'https://github.com/miguelbogota/girlfriend-as-a-service'
+  - label: 'Website'
+    icon: 'bx bx-arrow-out-up-right-square'
+    url: 'https://girlfriend-as-a-service.web.app'
+---
+
+## Challenge
+
+### Making a small invitation feel personal and easy to share.
+
+The experience needs to adapt to the recipient and language without creating a separate page for every invitation. A lightweight setup also makes it practical to host and share as a static application.
+
+## Solution
+
+### Using URL-based personalization in a lightweight React application.
+
+I built a React and Vite app that reads the recipient name, WhatsApp number, and language from query parameters. It supports English, Spanish, Italian, and French with an English fallback, includes GIF reactions for the No interaction, and is configured for Firebase Hosting.
