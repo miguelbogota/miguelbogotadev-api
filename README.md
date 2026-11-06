@@ -45,27 +45,27 @@ A project follows this format:
 
 ```md
 ---
-id: "example-project"
-startedAt: "2026-01-01"
+id: 'example-project'
+startedAt: '2026-01-01'
 endedAt: null
 isCurrent: true
 isArchived: false
 aggregate: false
-displayName: "Example Project"
-summary: "A short description used by project cards and previews."
-role: "Senior Software Engineer"
-companyName: "Personal Project"
-industry: "Software Development"
+displayName: 'Example Project'
+summary: 'A short description used by project cards and previews.'
+role: 'Senior Software Engineer'
+companyName: 'Personal Project'
+industry: 'Software Development'
 tags:
-  - "React"
-  - "TypeScript"
+  - 'React'
+  - 'TypeScript'
 images:
-  - src: "https://example.com/project.png"
-    alt: "Example project interface"
+  - src: 'https://example.com/project.png'
+    alt: 'Example project interface'
 links:
-  - label: "Source code"
-    icon: "bx bxl-github"
-    url: "https://github.com/example/project"
+  - label: 'Source code'
+    icon: 'bx bxl-github'
+    url: 'https://github.com/example/project'
 ---
 
 ## Challenge
