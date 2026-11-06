@@ -78,15 +78,17 @@ try {
 }
 
 /**
- * Sorts projects by their ID prefix, current status, and dates.
+ * Sorts projects by aggregation, current status, and dates.
  *
  * Sorting priority:
- * 1. Groups containing isCurrent === true come first.
- * 2. Groups containing endedAt === null come next.
- * 3. Groups are sorted by their latest startedAt date.
- * 4. Within each group, endedAt === null always comes first.
- * 5. Remaining projects are sorted by startedAt descending.
+ * 1. Projects are grouped by ID prefix only when aggregate === true.
+ * 2. Groups containing isCurrent === true come first.
+ * 3. Groups containing endedAt === null come next.
+ * 4. Groups are sorted by their latest startedAt date.
+ * 5. Within each group, endedAt === null always comes first.
+ * 6. Remaining projects are sorted by startedAt descending.
  *
+ * Projects without aggregate === true are treated individually.
  * The original array is not modified.
  *
  * @param {Object[]} projects - Array of projects to sort.
@@ -96,13 +98,21 @@ function sortProjects(projects) {
   const groups = new Map();
 
   for (const project of projects) {
-    const groupId = project.id.split("-")[0];
+    const groupId =
+      project.aggregate === true ? project.id.split('-')[0] : project.id;
 
-    if (!groups.has(groupId)) {
-      groups.set(groupId, []);
+    // Prevent non-aggregated projects from sharing a group
+    // with aggregated projects that have the same ID.
+    const groupKey =
+      project.aggregate === true
+        ? `aggregate:${groupId}`
+        : `project:${groupId}`;
+
+    if (!groups.has(groupKey)) {
+      groups.set(groupKey, []);
     }
 
-    groups.get(groupId).push(project);
+    groups.get(groupKey).push(project);
   }
 
   const grouped = Array.from(groups.values()).map((items) => {
@@ -120,8 +130,8 @@ function sortProjects(projects) {
       isCurrent: items.some((item) => item.isCurrent === true),
       isOngoing: items.some((item) => item.endedAt === null),
       startedAt: items.reduce(
-        (latest, item) => item.startedAt > latest ? item.startedAt : latest,
-        items[0].startedAt
+        (latest, item) => (item.startedAt > latest ? item.startedAt : latest),
+        items[0].startedAt,
       ),
     };
   });
