@@ -26,6 +26,12 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Cross-platform Development'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/thumbnail.jpg'
+  alt: 'Crypto June project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/artwork.jpg'
+  alt: 'Crypto June project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/01.png'
     alt: 'Crypto June - Cryptocurrency Price Dashboard'

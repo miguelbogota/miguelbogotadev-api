@@ -20,8 +20,14 @@ tags:
   - 'Responsive Design'
   - 'Web Development'
   - 'Portfolio Website'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/thumbnail.jpg'
+  alt: 'Miguel Bogota Dev V1 project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/artwork.jpg'
+  alt: 'Miguel Bogota Dev V1 project artwork'
 images:
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v1/01.png'
+  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/01.png'
     alt: 'Miguel Bogota Dev V1 - Minimalist Portfolio'
 links:
   - label: 'GitHub repository'

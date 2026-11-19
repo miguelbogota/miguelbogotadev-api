@@ -21,9 +21,13 @@ tags:
   - 'Performance Optimization'
   - 'Data-driven Content'
   - 'Modern Portfolio'
-images:
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v2/01.png'
-    alt: 'Miguel Bogota Dev V2 - Modern Portfolio Interface'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v02/thumbnail.jpg'
+  alt: 'Miguel Bogota Dev V2 project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v02/artwork.jpg'
+  alt: 'Miguel Bogota Dev V2 project artwork'
+images: []
 links:
   - label: 'GitHub repository'
     icon: 'bxl bx-github'

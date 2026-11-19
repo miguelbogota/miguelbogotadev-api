@@ -18,6 +18,12 @@ tags:
   - 'Turborepo'
   - 'Vercel Microfrontends'
   - 'Vitest'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/meow-clothing-studio/thumbnail.jpg'
+  alt: 'Meow Clothing Studio project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/meow-clothing-studio/artwork.jpg'
+  alt: 'Meow Clothing Studio project artwork'
 images: []
 links:
   - label: 'GitHub repository'

@@ -19,6 +19,12 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Web Performance'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/rey-writer/thumbnail.jpg'
+  alt: 'Rey Writer project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/rey-writer/artwork.jpg'
+  alt: 'Rey Writer project artwork'
 images:
   - src: 'https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
     alt: 'Rey Writer - Minimalist Blog Homepage'

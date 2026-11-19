@@ -18,6 +18,12 @@ tags:
   - 'OpenRouter'
   - 'Vitest'
   - 'Vercel'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/signal-polymarket-challenge/thumbnail.jpg'
+  alt: 'Signal — Polymarket Challenge project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/signal-polymarket-challenge/artwork.jpg'
+  alt: 'Signal — Polymarket Challenge project artwork'
 images: []
 links:
   - label: 'GitHub repository'

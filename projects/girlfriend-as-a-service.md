@@ -15,6 +15,12 @@ tags:
   - 'JavaScript'
   - 'Vite'
   - 'Firebase Hosting'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/girlfriend-as-a-service/thumbnail.jpg'
+  alt: 'Girlfriend as a Service project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/girlfriend-as-a-service/artwork.jpg'
+  alt: 'Girlfriend as a Service project artwork'
 images: []
 links:
   - label: 'GitHub repository'

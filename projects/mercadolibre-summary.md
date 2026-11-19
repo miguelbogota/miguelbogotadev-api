@@ -21,6 +21,12 @@ tags:
   - 'System Architecture'
   - 'Cross-Team Platform'
   - 'A/B Testing'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/thumbnail.jpg'
+  alt: 'Mercado Libre (Summary) project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/artwork.jpg'
+  alt: 'Mercado Libre (Summary) project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/01.png'
     alt: 'Mercado Libre Summary - Personalized Seller Dashboard'

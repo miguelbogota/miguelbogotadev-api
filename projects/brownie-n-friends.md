@@ -17,6 +17,12 @@ tags:
   - 'Sass'
   - 'Vitest'
   - 'Testing Library'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/brownie-n-friends/thumbnail.jpg'
+  alt: 'Brownie N'' Friends project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/brownie-n-friends/artwork.jpg'
+  alt: 'Brownie N'' Friends project artwork'
 images: []
 links:
   - label: 'GitHub repository'

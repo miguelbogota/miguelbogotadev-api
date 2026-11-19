@@ -24,10 +24,16 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Greenfield Development'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/thumbnail.jpg'
+  alt: 'AOSP Dealers project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/artwork.jpg'
+  alt: 'AOSP Dealers project artwork'
 images:
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/01.png'
+  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/01.png'
     alt: 'AOSP Dealers - Dealer Operations Dashboard'
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/02.png'
+  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/02.png'
     alt: 'AOSP Dealers - Workflow Management Interface'
 links: []
 ---

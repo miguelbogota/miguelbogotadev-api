@@ -23,6 +23,12 @@ tags:
   - 'ESLint'
   - 'Prettier'
   - 'Vercel'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/thumbnail.jpg'
+  alt: 'Miguel Bogota Dev API project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/artwork.jpg'
+  alt: 'Miguel Bogota Dev API project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/01.png'
     alt: 'Miguel Bogota Dev API - Data Infrastructure'

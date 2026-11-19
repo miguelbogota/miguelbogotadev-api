@@ -21,6 +21,12 @@ tags:
   - 'Backend Systems'
   - 'Process Optimization'
   - 'Revenue Growth'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/thumbnail.jpg'
+  alt: 'Mercado Libre (Reputation) project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/artwork.jpg'
+  alt: 'Mercado Libre (Reputation) project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/01.png'
     alt: 'Mercado Libre Reputation - AI-powered Trust System'

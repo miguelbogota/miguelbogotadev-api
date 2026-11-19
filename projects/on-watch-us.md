@@ -20,6 +20,12 @@ tags:
   - 'Object-Oriented Programming'
   - 'Real-time Communication'
   - 'Safety Critical Systems'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/on-watch-us/thumbnail.jpg'
+  alt: 'On Watch Us project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/on-watch-us/artwork.jpg'
+  alt: 'On Watch Us project artwork'
 images:
   - src: 'https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
     alt: 'On Watch Us - Maritime Navigation Platform'

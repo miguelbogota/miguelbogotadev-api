@@ -59,6 +59,12 @@ industry: 'Software Development'
 tags:
   - 'React'
   - 'TypeScript'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/example-project/thumbnail.jpg'
+  alt: 'Example Project card preview'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/example-project/artwork.jpg'
+  alt: 'Example Project social artwork'
 images:
   - src: 'https://example.com/project.png'
     alt: 'Example project interface'
@@ -100,6 +106,8 @@ Every project must define the same metadata fields:
 - `companyName`: company or organization associated with the project.
 - `industry`: project industry or category.
 - `tags`: non-empty list of technologies and relevant keywords.
+- `thumbnail`: required 1200×800 card image with a valid `src` URL and accessible `alt` text.
+- `artwork`: required 1200×630 social and project-banner image with a valid `src` URL and accessible `alt` text.
 - `images`: project gallery entries containing a valid `src` URL and accessible `alt` text.
 - `links`: external resources containing a `label`, icon class, and valid URL.
 
@@ -112,6 +120,21 @@ Generate `index.json` with:
 ```bash
 npm run build
 ```
+
+## Local portfolio preview
+
+Start the local API before starting the portfolio:
+
+```bash
+npm run dev
+```
+
+The development server rebuilds the index when it starts and serves it from
+`http://127.0.0.1:4173`. It exposes only `index.json`, `projects`, and `assets`,
+and rewrites published asset URLs in its index response to their local
+equivalents. Restart it after changing project metadata. The portfolio
+automatically uses this server during development and keeps using GitHub Pages
+in production.
 
 The build performs these steps in order:
 
@@ -180,11 +203,16 @@ const markdown = await response.text();
 │   └── pre-commit
 ├── projects/
 │   └── *.md
+├── assets/project-images/
+│   └── <project-id>/
+│       ├── thumbnail.png
+│       └── artwork.png
 ├── scripts/
 │   ├── build.js
 │   ├── constants.js
 │   ├── pre-commit.js
 │   ├── project-reader.js
+│   ├── server.js
 │   └── project-validator.js
 ├── types/
 │   ├── project.d.ts

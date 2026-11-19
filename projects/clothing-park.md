@@ -22,6 +22,12 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Sass'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/thumbnail.jpg'
+  alt: 'Clothing Park project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/artwork.jpg'
+  alt: 'Clothing Park project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/01.png'
     alt: 'Clothing Park - Home Page'

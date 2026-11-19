@@ -15,6 +15,12 @@ tags:
   - 'Angular'
   - 'TypeScript'
   - 'Maven'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/freshprint/thumbnail.jpg'
+  alt: 'Freshprint project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/freshprint/artwork.jpg'
+  alt: 'Freshprint project artwork'
 images: []
 links:
   - label: 'GitHub repository'

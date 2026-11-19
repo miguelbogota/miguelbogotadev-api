@@ -20,6 +20,12 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Web Performance'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-movies/thumbnail.jpg'
+  alt: 'NVC Movies project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-movies/artwork.jpg'
+  alt: 'NVC Movies project artwork'
 images:
   - src: 'https://images.unsplash.com/photo-1512070679279-8988d32161be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=678&q=80'
     alt: 'NVC Movies - Movie Discovery Platform'

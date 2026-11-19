@@ -20,6 +20,12 @@ tags:
   - 'Simple Architecture'
   - 'Cross-Team Collaboration'
   - 'Product Transformation'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/thumbnail.jpg'
+  alt: 'Mercado Libre (Sales) project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/artwork.jpg'
+  alt: 'Mercado Libre (Sales) project artwork'
 images:
   - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/01.png'
     alt: 'Mercado Libre Sales - Unified Seller Dashboard'

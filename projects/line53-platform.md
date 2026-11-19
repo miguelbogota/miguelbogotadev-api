@@ -20,6 +20,12 @@ tags:
   - 'MongoDB'
   - 'Better Auth'
   - 'Turborepo'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/line53-platform/thumbnail.jpg'
+  alt: 'LINE53 Platform project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/line53-platform/artwork.jpg'
+  alt: 'LINE53 Platform project artwork'
 images: []
 links:
   - label: 'GitHub repository'

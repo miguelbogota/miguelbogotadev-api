@@ -23,6 +23,14 @@
       "Process Optimization",
       "Revenue Growth"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/thumbnail.jpg",
+      "alt": "Mercado Libre (Reputation) project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/artwork.jpg",
+      "alt": "Mercado Libre (Reputation) project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-reputation/01.png",
@@ -75,6 +83,14 @@
       "Cross-Team Platform",
       "A/B Testing"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/thumbnail.jpg",
+      "alt": "Mercado Libre (Summary) project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/artwork.jpg",
+      "alt": "Mercado Libre (Summary) project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-summary/01.png",
@@ -110,6 +126,14 @@
       "Cross-Team Collaboration",
       "Product Transformation"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/thumbnail.jpg",
+      "alt": "Mercado Libre (Sales) project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/artwork.jpg",
+      "alt": "Mercado Libre (Sales) project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/mercadolibre-sales/01.png",
@@ -146,12 +170,15 @@
       "Modern Web Architecture",
       "Performance"
     ],
-    "images": [
-      {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v3/01.png",
-        "alt": "Miguel Bogota Dev V3 - Fullstack Modern Portfolio"
-      }
-    ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v03/thumbnail.jpg",
+      "alt": "Miguel Bogota Dev V3 project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v03/artwork.jpg",
+      "alt": "Miguel Bogota Dev V3 project artwork"
+    },
+    "images": [],
     "links": [
       {
         "label": "GitHub repository",
@@ -191,6 +218,14 @@
       "Prettier",
       "Vercel"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/thumbnail.jpg",
+      "alt": "Miguel Bogota Dev API project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/artwork.jpg",
+      "alt": "Miguel Bogota Dev API project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-api/01.png",
@@ -228,6 +263,14 @@
       "TypeScript",
       "Maven"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/freshprint/thumbnail.jpg",
+      "alt": "Freshprint project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/freshprint/artwork.jpg",
+      "alt": "Freshprint project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -258,6 +301,14 @@
       "Vitest",
       "Vercel"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/signal-polymarket-challenge/thumbnail.jpg",
+      "alt": "Signal — Polymarket Challenge project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/signal-polymarket-challenge/artwork.jpg",
+      "alt": "Signal — Polymarket Challenge project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -295,6 +346,14 @@
       "Better Auth",
       "Turborepo"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/line53-platform/thumbnail.jpg",
+      "alt": "LINE53 Platform project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/line53-platform/artwork.jpg",
+      "alt": "LINE53 Platform project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -324,6 +383,14 @@
       "Vitest",
       "Testing Library"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/brownie-n-friends/thumbnail.jpg",
+      "alt": "Brownie N' Friends project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/brownie-n-friends/artwork.jpg",
+      "alt": "Brownie N' Friends project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -356,6 +423,14 @@
       "Vite",
       "Firebase Hosting"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/girlfriend-as-a-service/thumbnail.jpg",
+      "alt": "Girlfriend as a Service project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/girlfriend-as-a-service/artwork.jpg",
+      "alt": "Girlfriend as a Service project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -391,6 +466,14 @@
       "Vercel Microfrontends",
       "Vitest"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/meow-clothing-studio/thumbnail.jpg",
+      "alt": "Meow Clothing Studio project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/meow-clothing-studio/artwork.jpg",
+      "alt": "Meow Clothing Studio project artwork"
+    },
     "images": [],
     "links": [
       {
@@ -429,12 +512,15 @@
       "Data-driven Content",
       "Modern Portfolio"
     ],
-    "images": [
-      {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v2/01.png",
-        "alt": "Miguel Bogota Dev V2 - Modern Portfolio Interface"
-      }
-    ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v02/thumbnail.jpg",
+      "alt": "Miguel Bogota Dev V2 project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v02/artwork.jpg",
+      "alt": "Miguel Bogota Dev V2 project artwork"
+    },
+    "images": [],
     "links": [
       {
         "label": "GitHub repository",
@@ -477,6 +563,14 @@
       "Babel",
       "Cross-platform Development"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/thumbnail.jpg",
+      "alt": "Crypto June project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/artwork.jpg",
+      "alt": "Crypto June project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/crypto-june/01.png",
@@ -526,6 +620,14 @@
       "Babel",
       "Team Leadership"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-galtex/thumbnail.jpg",
+      "alt": "Galtex project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-galtex/artwork.jpg",
+      "alt": "Galtex project artwork"
+    },
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
@@ -560,9 +662,17 @@
       "Babel",
       "Team Leadership"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/thumbnail.jpg",
+      "alt": "AOSP project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/artwork.jpg",
+      "alt": "AOSP project artwork"
+    },
     "images": [
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/01.png",
         "alt": "AOSP - Enterprise Business Transformation Platform"
       }
     ],
@@ -591,6 +701,14 @@
       "Babel",
       "Web Performance"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-movies/thumbnail.jpg",
+      "alt": "NVC Movies project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-movies/artwork.jpg",
+      "alt": "NVC Movies project artwork"
+    },
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1512070679279-8988d32161be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=678&q=80",
@@ -637,13 +755,21 @@
       "Babel",
       "Greenfield Development"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/thumbnail.jpg",
+      "alt": "AOSP Dealers project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/artwork.jpg",
+      "alt": "AOSP Dealers project artwork"
+    },
     "images": [
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/01.png",
         "alt": "AOSP Dealers - Dealer Operations Dashboard"
       },
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp-dealers/02.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp-dealers/02.png",
         "alt": "AOSP Dealers - Workflow Management Interface"
       }
     ],
@@ -672,9 +798,17 @@
       "Web Development",
       "Portfolio Website"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/thumbnail.jpg",
+      "alt": "Miguel Bogota Dev V1 project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/artwork.jpg",
+      "alt": "Miguel Bogota Dev V1 project artwork"
+    },
     "images": [
       {
-        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v1/01.png",
+        "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v01/01.png",
         "alt": "Miguel Bogota Dev V1 - Minimalist Portfolio"
       }
     ],
@@ -716,6 +850,14 @@
       "Babel",
       "Sass"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/thumbnail.jpg",
+      "alt": "Clothing Park project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/artwork.jpg",
+      "alt": "Clothing Park project artwork"
+    },
     "images": [
       {
         "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/clothing-park/01.png",
@@ -765,6 +907,14 @@
       "Babel",
       "Web Performance"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/rey-writer/thumbnail.jpg",
+      "alt": "Rey Writer project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/rey-writer/artwork.jpg",
+      "alt": "Rey Writer project artwork"
+    },
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
@@ -804,6 +954,14 @@
       "Real-time Communication",
       "Safety Critical Systems"
     ],
+    "thumbnail": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/on-watch-us/thumbnail.jpg",
+      "alt": "On Watch Us project thumbnail"
+    },
+    "artwork": {
+      "src": "https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/on-watch-us/artwork.jpg",
+      "alt": "On Watch Us project artwork"
+    },
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",

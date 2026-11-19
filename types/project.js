@@ -14,6 +14,14 @@ const requiredText = (name) =>
     .trim()
     .min(1, `${name} cannot be empty`);
 
+/** Shared contract for required project media. */
+const projectMediaSchema = z
+  .object({
+    src: z.url({ error: 'Project media src must be a valid URL' }),
+    alt: requiredText('Project media alt text'),
+  })
+  .strict();
+
 /**
  * Creates a schema for a real calendar date written as YYYY-MM-DD.
  *
@@ -53,13 +61,10 @@ export const projectMetadataSchema = z
     tags: z
       .array(requiredText('Tag'), { error: 'tags must be an array of strings' })
       .min(1, 'tags must contain at least one item'),
+    thumbnail: projectMediaSchema,
+    artwork: projectMediaSchema,
     images: z.array(
-      z
-        .object({
-          src: z.url({ error: 'Image src must be a valid URL' }),
-          alt: requiredText('Image alt text'),
-        })
-        .strict(),
+      projectMediaSchema,
       { error: 'images must be an array' },
     ),
     links: z.array(

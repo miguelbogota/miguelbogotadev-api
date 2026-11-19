@@ -21,9 +21,13 @@ tags:
   - 'Isomorphic JavaScript'
   - 'Modern Web Architecture'
   - 'Performance'
-images:
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v3/01.png'
-    alt: 'Miguel Bogota Dev V3 - Fullstack Modern Portfolio'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v03/thumbnail.jpg'
+  alt: 'Miguel Bogota Dev V3 project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/miguelbogotadev-v03/artwork.jpg'
+  alt: 'Miguel Bogota Dev V3 project artwork'
+images: []
 links:
   - label: 'GitHub repository'
     icon: 'bxl bx-github'

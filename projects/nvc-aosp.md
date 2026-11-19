@@ -23,8 +23,14 @@ tags:
   - 'Prettier'
   - 'Babel'
   - 'Team Leadership'
+thumbnail:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/thumbnail.jpg'
+  alt: 'AOSP project thumbnail'
+artwork:
+  src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/artwork.jpg'
+  alt: 'AOSP project artwork'
 images:
-  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/aosp/01.png'
+  - src: 'https://miguelbogota.github.io/miguelbogotadev-api/assets/project-images/nvc-aosp/01.png'
     alt: 'AOSP - Enterprise Business Transformation Platform'
 links: []
 ---
